@@ -1,0 +1,90 @@
+   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: 30gbhighperformancepv-hvm: GNU/Linux
+   OS: GNU/Linux -- 3.8.0-19-generic -- #29-Ubuntu SMP Wed Apr 17 18:16:28 UTC 2013
+   Machine: x86_64 (x86_64)
+   Language: en_US.utf8 (charmap="UTF-8", collate="UTF-8")
+   CPU 0: Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz (5200.1 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 1: Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz (5268.5 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 2: Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz (5268.8 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 3: Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz (5268.9 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 4: Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz (5270.0 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 5: Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz (5269.8 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 6: Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz (5270.0 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 7: Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz (5269.9 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   08:35:25 up  4:44,  0 users,  load average: 42.55, 24.57, 13.13; runlevel 2
+
+------------------------------------------------------------------------
+Benchmark Run: Sat Nov 02 2013 08:35:25 - 09:03:35
+8 CPUs in system; running 1 parallel copy of tests
+
+Dhrystone 2 using register variables       30109445.6 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     2905.4 MWIPS (9.9 s, 7 samples)
+Execl Throughput                               2927.3 lps   (30.0 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        876422.7 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks          238349.0 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks       2489392.4 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             1696757.4 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 283342.7 lps   (10.0 s, 7 samples)
+Process Creation                               8391.2 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   8705.0 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                   4134.6 lpm   (60.0 s, 2 samples)
+System Call Overhead                        3313859.9 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   30109445.6   2580.1
+Double-Precision Whetstone                       55.0       2905.4    528.2
+Execl Throughput                                 43.0       2927.3    680.8
+File Copy 1024 bufsize 2000 maxblocks          3960.0     876422.7   2213.2
+File Copy 256 bufsize 500 maxblocks            1655.0     238349.0   1440.2
+File Copy 4096 bufsize 8000 maxblocks          5800.0    2489392.4   4292.1
+Pipe Throughput                               12440.0    1696757.4   1364.0
+Pipe-based Context Switching                   4000.0     283342.7    708.4
+Process Creation                                126.0       8391.2    666.0
+Shell Scripts (1 concurrent)                     42.4       8705.0   2053.1
+Shell Scripts (8 concurrent)                      6.0       4134.6   6891.1
+System Call Overhead                          15000.0    3313859.9   2209.2
+                                                                   ========
+System Benchmarks Index Score                                        1587.0
+
+------------------------------------------------------------------------
+Benchmark Run: Sat Nov 02 2013 09:03:35 - 09:31:48
+8 CPUs in system; running 8 parallel copies of tests
+
+Dhrystone 2 using register variables      240092308.0 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                    23200.1 MWIPS (9.9 s, 7 samples)
+Execl Throughput                              21587.5 lps   (30.0 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        693747.3 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks          206998.0 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks       2363010.7 KBps  (30.0 s, 2 samples)
+Pipe Throughput                            13490609.9 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                1857046.2 lps   (10.0 s, 7 samples)
+Process Creation                              60953.1 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                  46545.1 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                   6394.9 lpm   (60.0 s, 2 samples)
+System Call Overhead                        3652446.0 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0  240092308.0  20573.5
+Double-Precision Whetstone                       55.0      23200.1   4218.2
+Execl Throughput                                 43.0      21587.5   5020.3
+File Copy 1024 bufsize 2000 maxblocks          3960.0     693747.3   1751.9
+File Copy 256 bufsize 500 maxblocks            1655.0     206998.0   1250.7
+File Copy 4096 bufsize 8000 maxblocks          5800.0    2363010.7   4074.2
+Pipe Throughput                               12440.0   13490609.9  10844.5
+Pipe-based Context Switching                   4000.0    1857046.2   4642.6
+Process Creation                                126.0      60953.1   4837.5
+Shell Scripts (1 concurrent)                     42.4      46545.1  10977.6
+Shell Scripts (8 concurrent)                      6.0       6394.9  10658.1
+System Call Overhead                          15000.0    3652446.0   2435.0
+                                                                   ========
+System Benchmarks Index Score                                        5041.9
+

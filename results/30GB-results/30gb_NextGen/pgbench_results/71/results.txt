@@ -1,0 +1,9 @@
+transaction type: Custom query
+scaling factor: 1000
+query mode: simple
+number of clients: 16
+number of threads: 1
+duration: 60 s
+number of transactions actually processed: 1409437
+tps = 23484.111959 (including connections establishing)
+tps = 23578.968634 (excluding connections establishing)

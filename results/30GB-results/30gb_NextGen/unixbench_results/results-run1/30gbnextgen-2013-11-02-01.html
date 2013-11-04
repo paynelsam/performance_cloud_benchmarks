@@ -1,0 +1,364 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="linux, benchmarks, benchmarking">
+  <title>Benchmark of 30gbnextgen / GNU/Linux on Sat Nov 02 2013</title>
+  <style type="text/css">
+    table {
+      margin: 1em 1em 1em 0;
+      background: #f9f9f9;
+      border: 1px #aaaaaa solid;
+      border-collapse: collapse;
+    }
+
+    table th, table td {
+      border: 1px #aaaaaa solid;
+      padding: 0.2em;
+    }
+
+    table th {
+      background: #f2f2f2;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<h2>Benchmark of 30gbnextgen / GNU/Linux on Sat Nov 02 2013</h2>
+<p><b>BYTE UNIX Benchmarks (Version 5.1.3)</b></p>
+
+<h3>Test System Information</h3>
+<p><table>
+<tr>
+   <td><b>System:</b></td>
+   <td colspan=2>30gbnextgen: GNU/Linux</td>
+</tr><tr>
+   <td><b>OS:</b></td>
+   <td colspan=2>GNU/Linux -- 3.8.0-31-generic -- #46-Ubuntu SMP Tue Sep 10 20:03:44 UTC 2013</td>
+</tr><tr>
+   <td><b>Machine:</b></td>
+   <td colspan=2>x86_64: x86_64</td>
+</tr><tr>
+   <td><b>Language:</b></td>
+   <td colspan=2>en_US.utf8 (charmap="UTF-8", collate="UTF-8")</td>
+</tr>
+<tr>
+   <td rowspan=8><b>CPUs:</b></td>
+   <td><b>0:</b></td>
+   <td>AMD Opteron(tm) Processor 4332 HE  (6000.1 bogomips)<br/>
+       Hyper-Threading, x86-64, MMX, AMD MMX, Physical Address Ext, SYSCALL/SYSRET</td>
+</tr>
+<tr>
+   <td><b>1:</b></td>
+   <td>AMD Opteron(tm) Processor 4332 HE  (6000.1 bogomips)<br/>
+       Hyper-Threading, x86-64, MMX, AMD MMX, Physical Address Ext, SYSCALL/SYSRET</td>
+</tr>
+<tr>
+   <td><b>2:</b></td>
+   <td>AMD Opteron(tm) Processor 4332 HE  (6000.1 bogomips)<br/>
+       Hyper-Threading, x86-64, MMX, AMD MMX, Physical Address Ext, SYSCALL/SYSRET</td>
+</tr>
+<tr>
+   <td><b>3:</b></td>
+   <td>AMD Opteron(tm) Processor 4332 HE  (6000.1 bogomips)<br/>
+       Hyper-Threading, x86-64, MMX, AMD MMX, Physical Address Ext, SYSCALL/SYSRET</td>
+</tr>
+<tr>
+   <td><b>4:</b></td>
+   <td>AMD Opteron(tm) Processor 4332 HE  (6000.1 bogomips)<br/>
+       Hyper-Threading, x86-64, MMX, AMD MMX, Physical Address Ext, SYSCALL/SYSRET</td>
+</tr>
+<tr>
+   <td><b>5:</b></td>
+   <td>AMD Opteron(tm) Processor 4332 HE  (6000.1 bogomips)<br/>
+       Hyper-Threading, x86-64, MMX, AMD MMX, Physical Address Ext, SYSCALL/SYSRET</td>
+</tr>
+<tr>
+   <td><b>6:</b></td>
+   <td>AMD Opteron(tm) Processor 4332 HE  (6000.1 bogomips)<br/>
+       Hyper-Threading, x86-64, MMX, AMD MMX, Physical Address Ext, SYSCALL/SYSRET</td>
+</tr>
+<tr>
+   <td><b>7:</b></td>
+   <td>AMD Opteron(tm) Processor 4332 HE  (6000.1 bogomips)<br/>
+       Hyper-Threading, x86-64, MMX, AMD MMX, Physical Address Ext, SYSCALL/SYSRET</td>
+</tr>
+<tr>
+   <td><b>Uptime:</b></td>
+   <td colspan=2>03:38:54 up 3 min,  1 user,  load average: 0.21, 0.10, 0.04; runlevel 2</td>
+</tr>
+</table></p>
+
+<p><hr/></p>
+<h3>Benchmark Run: 8 CPUs; 1 parallel process</h3>
+<p>Time: 03:38:55 - 04:07:06; 28m 11s</p>
+
+<h4>System Benchmarks</h4>
+<p><table width="100%">
+<tr>
+   <th align=left>Test</th>
+   <th align=right>Score</th>
+   <th align=left>Unit</th>
+   <th align=right>Time</th>
+   <th align=right>Iters.</th>
+   <th align=right>Baseline</th>
+   <th align=right>Index</th>
+</tr>
+<tr>
+   <td><b>Dhrystone 2 using register variables</b></td>
+   <td align=right><tt>24165253.5</tt></td>
+   <td align=left><tt>lps</tt></td>
+   <td align=right><tt>10.0 s</tt></td>
+   <td align=right><tt>7</tt></td>
+   <td align=right><tt>116700.0</tt></td>
+   <td align=right><tt>2070.7</tt></td>
+</tr>
+<tr>
+   <td><b>Double-Precision Whetstone</b></td>
+   <td align=right><tt>3021.4</tt></td>
+   <td align=left><tt>MWIPS</tt></td>
+   <td align=right><tt>9.8 s</tt></td>
+   <td align=right><tt>7</tt></td>
+   <td align=right><tt>55.0</tt></td>
+   <td align=right><tt>549.3</tt></td>
+</tr>
+<tr>
+   <td><b>Execl Throughput</b></td>
+   <td align=right><tt>852.3</tt></td>
+   <td align=left><tt>lps</tt></td>
+   <td align=right><tt>30.0 s</tt></td>
+   <td align=right><tt>2</tt></td>
+   <td align=right><tt>43.0</tt></td>
+   <td align=right><tt>198.2</tt></td>
+</tr>
+<tr>
+   <td><b>File Copy 1024 bufsize 2000 maxblocks</b></td>
+   <td align=right><tt>228936.8</tt></td>
+   <td align=left><tt>KBps</tt></td>
+   <td align=right><tt>30.0 s</tt></td>
+   <td align=right><tt>2</tt></td>
+   <td align=right><tt>3960.0</tt></td>
+   <td align=right><tt>578.1</tt></td>
+</tr>
+<tr>
+   <td><b>File Copy 256 bufsize 500 maxblocks</b></td>
+   <td align=right><tt>61980.1</tt></td>
+   <td align=left><tt>KBps</tt></td>
+   <td align=right><tt>30.0 s</tt></td>
+   <td align=right><tt>2</tt></td>
+   <td align=right><tt>1655.0</tt></td>
+   <td align=right><tt>374.5</tt></td>
+</tr>
+<tr>
+   <td><b>File Copy 4096 bufsize 8000 maxblocks</b></td>
+   <td align=right><tt>618489.1</tt></td>
+   <td align=left><tt>KBps</tt></td>
+   <td align=right><tt>30.0 s</tt></td>
+   <td align=right><tt>2</tt></td>
+   <td align=right><tt>5800.0</tt></td>
+   <td align=right><tt>1066.4</tt></td>
+</tr>
+<tr>
+   <td><b>Pipe Throughput</b></td>
+   <td align=right><tt>372317.1</tt></td>
+   <td align=left><tt>lps</tt></td>
+   <td align=right><tt>10.0 s</tt></td>
+   <td align=right><tt>7</tt></td>
+   <td align=right><tt>12440.0</tt></td>
+   <td align=right><tt>299.3</tt></td>
+</tr>
+<tr>
+   <td><b>Pipe-based Context Switching</b></td>
+   <td align=right><tt>29874.5</tt></td>
+   <td align=left><tt>lps</tt></td>
+   <td align=right><tt>10.0 s</tt></td>
+   <td align=right><tt>7</tt></td>
+   <td align=right><tt>4000.0</tt></td>
+   <td align=right><tt>74.7</tt></td>
+</tr>
+<tr>
+   <td><b>Process Creation</b></td>
+   <td align=right><tt>1380.7</tt></td>
+   <td align=left><tt>lps</tt></td>
+   <td align=right><tt>30.0 s</tt></td>
+   <td align=right><tt>2</tt></td>
+   <td align=right><tt>126.0</tt></td>
+   <td align=right><tt>109.6</tt></td>
+</tr>
+<tr>
+   <td><b>Shell Scripts (1 concurrent)</b></td>
+   <td align=right><tt>3192.1</tt></td>
+   <td align=left><tt>lpm</tt></td>
+   <td align=right><tt>60.0 s</tt></td>
+   <td align=right><tt>2</tt></td>
+   <td align=right><tt>42.4</tt></td>
+   <td align=right><tt>752.8</tt></td>
+</tr>
+<tr>
+   <td><b>Shell Scripts (8 concurrent)</b></td>
+   <td align=right><tt>1191.8</tt></td>
+   <td align=left><tt>lpm</tt></td>
+   <td align=right><tt>60.0 s</tt></td>
+   <td align=right><tt>2</tt></td>
+   <td align=right><tt>6.0</tt></td>
+   <td align=right><tt>1986.3</tt></td>
+</tr>
+<tr>
+   <td><b>System Call Overhead</b></td>
+   <td align=right><tt>320457.4</tt></td>
+   <td align=left><tt>lps</tt></td>
+   <td align=right><tt>10.0 s</tt></td>
+   <td align=right><tt>7</tt></td>
+   <td align=right><tt>15000.0</tt></td>
+   <td align=right><tt>213.6</tt></td>
+</tr>
+<tr>
+   <td colspan=6><b>System Benchmarks Index Score:</b></td>
+   <td align=right><b><tt>430.7</tt></b></td>
+</tr>
+</table></p>
+
+<p><hr/></p>
+<h3>Benchmark Run: 8 CPUs; 8 parallel processes</h3>
+<p>Time: 04:07:06 - 04:35:26; 28m 20s</p>
+
+<h4>System Benchmarks</h4>
+<p><table width="100%">
+<tr>
+   <th align=left>Test</th>
+   <th align=right>Score</th>
+   <th align=left>Unit</th>
+   <th align=right>Time</th>
+   <th align=right>Iters.</th>
+   <th align=right>Baseline</th>
+   <th align=right>Index</th>
+</tr>
+<tr>
+   <td><b>Dhrystone 2 using register variables</b></td>
+   <td align=right><tt>160966455.6</tt></td>
+   <td align=left><tt>lps</tt></td>
+   <td align=right><tt>10.0 s</tt></td>
+   <td align=right><tt>7</tt></td>
+   <td align=right><tt>116700.0</tt></td>
+   <td align=right><tt>13793.2</tt></td>
+</tr>
+<tr>
+   <td><b>Double-Precision Whetstone</b></td>
+   <td align=right><tt>21955.3</tt></td>
+   <td align=left><tt>MWIPS</tt></td>
+   <td align=right><tt>9.6 s</tt></td>
+   <td align=right><tt>7</tt></td>
+   <td align=right><tt>55.0</tt></td>
+   <td align=right><tt>3991.9</tt></td>
+</tr>
+<tr>
+   <td><b>Execl Throughput</b></td>
+   <td align=right><tt>4303.5</tt></td>
+   <td align=left><tt>lps</tt></td>
+   <td align=right><tt>30.0 s</tt></td>
+   <td align=right><tt>2</tt></td>
+   <td align=right><tt>43.0</tt></td>
+   <td align=right><tt>1000.8</tt></td>
+</tr>
+<tr>
+   <td><b>File Copy 1024 bufsize 2000 maxblocks</b></td>
+   <td align=right><tt>267100.7</tt></td>
+   <td align=left><tt>KBps</tt></td>
+   <td align=right><tt>30.0 s</tt></td>
+   <td align=right><tt>2</tt></td>
+   <td align=right><tt>3960.0</tt></td>
+   <td align=right><tt>674.5</tt></td>
+</tr>
+<tr>
+   <td><b>File Copy 256 bufsize 500 maxblocks</b></td>
+   <td align=right><tt>67506.0</tt></td>
+   <td align=left><tt>KBps</tt></td>
+   <td align=right><tt>30.0 s</tt></td>
+   <td align=right><tt>2</tt></td>
+   <td align=right><tt>1655.0</tt></td>
+   <td align=right><tt>407.9</tt></td>
+</tr>
+<tr>
+   <td><b>File Copy 4096 bufsize 8000 maxblocks</b></td>
+   <td align=right><tt>811137.8</tt></td>
+   <td align=left><tt>KBps</tt></td>
+   <td align=right><tt>30.0 s</tt></td>
+   <td align=right><tt>2</tt></td>
+   <td align=right><tt>5800.0</tt></td>
+   <td align=right><tt>1398.5</tt></td>
+</tr>
+<tr>
+   <td><b>Pipe Throughput</b></td>
+   <td align=right><tt>2597463.9</tt></td>
+   <td align=left><tt>lps</tt></td>
+   <td align=right><tt>10.0 s</tt></td>
+   <td align=right><tt>7</tt></td>
+   <td align=right><tt>12440.0</tt></td>
+   <td align=right><tt>2088.0</tt></td>
+</tr>
+<tr>
+   <td><b>Pipe-based Context Switching</b></td>
+   <td align=right><tt>350978.2</tt></td>
+   <td align=left><tt>lps</tt></td>
+   <td align=right><tt>10.0 s</tt></td>
+   <td align=right><tt>7</tt></td>
+   <td align=right><tt>4000.0</tt></td>
+   <td align=right><tt>877.4</tt></td>
+</tr>
+<tr>
+   <td><b>Process Creation</b></td>
+   <td align=right><tt>8378.7</tt></td>
+   <td align=left><tt>lps</tt></td>
+   <td align=right><tt>30.0 s</tt></td>
+   <td align=right><tt>2</tt></td>
+   <td align=right><tt>126.0</tt></td>
+   <td align=right><tt>665.0</tt></td>
+</tr>
+<tr>
+   <td><b>Shell Scripts (1 concurrent)</b></td>
+   <td align=right><tt>11876.7</tt></td>
+   <td align=left><tt>lpm</tt></td>
+   <td align=right><tt>60.0 s</tt></td>
+   <td align=right><tt>2</tt></td>
+   <td align=right><tt>42.4</tt></td>
+   <td align=right><tt>2801.1</tt></td>
+</tr>
+<tr>
+   <td><b>Shell Scripts (8 concurrent)</b></td>
+   <td align=right><tt>1629.2</tt></td>
+   <td align=left><tt>lpm</tt></td>
+   <td align=right><tt>60.1 s</tt></td>
+   <td align=right><tt>2</tt></td>
+   <td align=right><tt>6.0</tt></td>
+   <td align=right><tt>2715.3</tt></td>
+</tr>
+<tr>
+   <td><b>System Call Overhead</b></td>
+   <td align=right><tt>1437265.3</tt></td>
+   <td align=left><tt>lps</tt></td>
+   <td align=right><tt>10.0 s</tt></td>
+   <td align=right><tt>7</tt></td>
+   <td align=right><tt>15000.0</tt></td>
+   <td align=right><tt>958.2</tt></td>
+</tr>
+<tr>
+   <td colspan=6><b>System Benchmarks Index Score:</b></td>
+   <td align=right><b><tt>1547.2</tt></b></td>
+</tr>
+</table></p>
+
+<p><hr/></p>
+<div><b>No Warranties:</b> This information is provided free of charge and "as
+is" without any warranty, condition, or representation of any kind,
+either express or implied, including but not limited to, any warranty
+respecting non-infringement, and the implied warranties of conditions
+of merchantability and fitness for a particular purpose. All logos or
+trademarks on this site are the property of their respective owner. In
+no event shall the author be liable for any
+direct, indirect, special, incidental, consequential or other damages
+howsoever caused whether arising in contract, tort, or otherwise,
+arising out of or in connection with the use or performance of the
+information contained on this web site.</div>
+</body>
+</html>

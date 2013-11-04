@@ -1,0 +1,7847 @@
+
+########################################################
+Dhrystone 2 using register variables -- 1 copy
+==> "/root/UnixBench/pgms/dhry2reg" 10 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 241025791
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007572
+# pid: 11014
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 241310876
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006996
+# pid: 11023
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 241501714
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007120
+# pid: 11078
+# status: 0
+
+#### Pass 4
+
+
+# COUNT0: 241600820
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007538
+# pid: 11087
+# status: 0
+
+#### Pass 5
+
+
+# COUNT0: 241703140
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007035
+# pid: 11096
+# status: 0
+
+#### Pass 6
+
+
+# COUNT0: 241318703
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006693
+# pid: 11105
+# status: 0
+
+#### Pass 7
+
+
+# COUNT0: 241539590
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007418
+# pid: 11173
+# status: 0
+
+#### Pass 8
+
+
+# COUNT0: 206244013
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007798
+# pid: 11182
+# status: 0
+
+#### Pass 9
+
+
+# COUNT0: 241415756
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007652
+# pid: 11191
+# status: 0
+
+#### Pass 10
+
+
+# COUNT0: 241240849
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008386
+# pid: 11200
+# status: 0
+
+*Dump score:  206244013.0
+*Dump score:  241025791.0
+*Dump score:  241240849.0
+Count score:  241310876.0
+Count score:  241318703.0
+Count score:  241415756.0
+Count score:  241501714.0
+Count score:  241539590.0
+Count score:  241600820.0
+Count score:  241703140.0
+
+>>>> Results of 1 copy
+>>>> score: 24131041.1079973
+>>>> time: 10.0072074285714
+>>>> iterations: 7
+
+
+########################################################
+Double-Precision Whetstone -- 1 copy
+==> "/root/UnixBench/pgms/whetstone-double"  2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.15 Seconds        625   Passes (x 100)
+
+Use 2904  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1064.061              0.052
+N2 floating point     -1.12187079889292241       995.657              0.392
+N3 if then else        1.00000000000000000                3954.789    0.076
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  54.222    4.456
+N6 floating point      0.99999987890802811       597.869              2.620
+N7 assignments         3.00000000000000000                3354.120    0.160
+N8 exp,sqrt etc.       0.75100163018453692                  51.937    2.080
+
+MWIPS                                           2952.300              9.836
+
+
+# COUNT0: 2952.300
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.836
+# elapsed: 13.138935
+# pid: 11209
+# status: 0
+
+#### Pass 2
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.10 Seconds        625   Passes (x 100)
+
+Use 2971  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1064.239              0.054
+N2 floating point     -1.12187079889292241       998.256              0.400
+N3 if then else        1.00000000000000000                3660.696    0.084
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  57.166    4.324
+N6 floating point      0.99999987890802811       598.863              2.676
+N7 assignments         3.00000000000000000                3268.100    0.168
+N8 exp,sqrt etc.       0.75100163018453692                  51.937    2.128
+
+MWIPS                                           3021.274              9.834
+
+
+# COUNT0: 3021.274
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.834
+# elapsed: 13.083265
+# pid: 11264
+# status: 0
+
+#### Pass 3
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.11 Seconds        625   Passes (x 100)
+
+Use 2966  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1062.448              0.054
+N2 floating point     -1.12187079889292241       996.576              0.400
+N3 if then else        1.00000000000000000                3488.420    0.088
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  57.070    4.324
+N6 floating point      0.99999987890802811       597.855              2.676
+N7 assignments         3.00000000000000000                3114.300    0.176
+N8 exp,sqrt etc.       0.75100163018453692                  52.045    2.120
+
+MWIPS                                           3014.963              9.838
+
+
+# COUNT0: 3014.963
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.838
+# elapsed: 13.092685
+# pid: 11273
+# status: 0
+
+#### Pass 4
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.11 Seconds        625   Passes (x 100)
+
+Use 2966  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1070.436              0.053
+N2 floating point     -1.12187079889292241       986.709              0.404
+N3 if then else        1.00000000000000000                3654.536    0.084
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.965    4.332
+N6 floating point      0.99999987890802811       597.855              2.676
+N7 assignments         3.00000000000000000                3186.726    0.172
+N8 exp,sqrt etc.       0.75100163018453692                  51.849    2.128
+
+MWIPS                                           3011.412              9.849
+
+
+# COUNT0: 3011.412
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.849
+# elapsed: 13.101686
+# pid: 11282
+# status: 0
+
+#### Pass 5
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.42 Seconds        125   Passes (x 100)
+       2.10 Seconds        625   Passes (x 100)
+
+Use 2971  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1056.356              0.054
+N2 floating point     -1.12187079889292241       998.256              0.400
+N3 if then else        1.00000000000000000                3342.375    0.092
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  57.325    4.312
+N6 floating point      0.99999987890802811       597.969              2.680
+N7 assignments         3.00000000000000000                3192.097    0.172
+N8 exp,sqrt etc.       0.75100163018453692                  51.937    2.128
+
+MWIPS                                           3019.923              9.838
+
+
+# COUNT0: 3019.923
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.838
+# elapsed: 13.090694
+# pid: 11350
+# status: 0
+
+#### Pass 6
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.42 Seconds        125   Passes (x 100)
+       2.11 Seconds        625   Passes (x 100)
+
+Use 2960  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1068.271              0.053
+N2 floating point     -1.12187079889292241       994.560              0.400
+N3 if then else        1.00000000000000000                3330.000    0.092
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  57.273    4.300
+N6 floating point      0.99999987890802811       597.539              2.672
+N7 assignments         3.00000000000000000                3335.415    0.164
+N8 exp,sqrt etc.       0.75100163018453692                  51.940    2.120
+
+MWIPS                                           3020.038              9.801
+
+
+# COUNT0: 3020.038
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.801
+# elapsed: 13.054676
+# pid: 11359
+# status: 0
+
+#### Pass 7
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.11 Seconds        625   Passes (x 100)
+
+Use 2960  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1060.299              0.054
+N2 floating point     -1.12187079889292241       994.560              0.400
+N3 if then else        1.00000000000000000                4255.000    0.072
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.902    4.328
+N6 floating point      0.99999987890802811       597.539              2.672
+N7 assignments         3.00000000000000000                3418.800    0.160
+N8 exp,sqrt etc.       0.75100163018453692                  52.038    2.116
+
+MWIPS                                           3019.915              9.802
+
+
+# COUNT0: 3019.915
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.802
+# elapsed: 13.065697
+# pid: 11368
+# status: 0
+
+#### Pass 8
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.44 Seconds        125   Passes (x 100)
+       2.18 Seconds        625   Passes (x 100)
+
+Use 2862  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1064.930              0.052
+N2 floating point     -1.12187079889292241       991.373              0.388
+N3 if then else        1.00000000000000000                3897.592    0.076
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.912    4.184
+N6 floating point      0.99999987890802811       598.358              2.580
+N7 assignments         3.00000000000000000                3224.985    0.164
+N8 exp,sqrt etc.       0.75100163018453692                  51.783    2.056
+
+MWIPS                                           3012.758              9.500
+
+
+# COUNT0: 3012.758
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.500
+# elapsed: 12.825034
+# pid: 11377
+# status: 0
+
+#### Pass 9
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.11 Seconds        625   Passes (x 100)
+
+Use 2960  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1060.299              0.054
+N2 floating point     -1.12187079889292241       994.560              0.400
+N3 if then else        1.00000000000000000                3829.500    0.080
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  57.060    4.316
+N6 floating point      0.99999987890802811       598.435              2.668
+N7 assignments         3.00000000000000000                3180.279    0.172
+N8 exp,sqrt etc.       0.75100163018453692                  51.940    2.120
+
+MWIPS                                           3017.452              9.810
+
+
+# COUNT0: 3017.452
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.810
+# elapsed: 13.068631
+# pid: 11432
+# status: 0
+
+#### Pass 10
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.11 Seconds        625   Passes (x 100)
+
+Use 2966  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1062.448              0.054
+N2 floating point     -1.12187079889292241       996.576              0.400
+N3 if then else        1.00000000000000000                3654.536    0.084
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  57.176    4.316
+N6 floating point      0.99999987890802811       598.750              2.672
+N7 assignments         3.00000000000000000                3806.367    0.144
+N8 exp,sqrt etc.       0.75100163018453692                  52.045    2.120
+
+MWIPS                                           3029.746              9.790
+
+
+# COUNT0: 3029.746
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.790
+# elapsed: 13.043821
+# pid: 11441
+# status: 0
+
+*Dump score:       2952.3
+*Dump score:       3011.4
+*Dump score:       3012.8
+Count score:       3015.0
+Count score:       3017.5
+Count score:       3019.9
+Count score:       3019.9
+Count score:       3020.0
+Count score:       3021.3
+Count score:       3029.7
+
+>>>> Results of 1 copy
+>>>> score: 3020.47000171957
+>>>> time: 9.81614285714286
+>>>> iterations: 7
+
+
+########################################################
+Execl Throughput -- 1 copy
+==> "/root/UnixBench/pgms/execl" 30 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 25306
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.756085
+# pid: 11450
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 25203
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.965710
+# pid: 11518
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 25519
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.965152
+# pid: 11527
+# status: 0
+
+*Dump score:      25203.0
+Count score:      25306.0
+Count score:      25519.0
+
+>>>> Results of 1 copy
+>>>> score: 851.035036377064
+>>>> time: 29.8606185
+>>>> iterations: 2
+
+
+########################################################
+File Copy 1024 bufsize 2000 maxblocks -- 1 copy
+==> "/root/UnixBench/pgms/fstime" -c -t 30 -d "/root/UnixBench/tmp" -b 1024 -m 2000 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+Write done: 2672000 in 2.0044, score 333260
+Read done: 6418548 in 2.0001, score 802291
+Copy done: 27173748 in 30.0018, score 226434
+
+# COUNT0: 226434
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.046735
+# pid: 11582
+# status: 0
+
+#### Pass 2
+
+Write done: 2552000 in 2.0054, score 318144
+Read done: 6477816 in 2.0001, score 809699
+Copy done: 27120960 in 30.0043, score 225975
+
+# COUNT0: 225975
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.051701
+# pid: 11650
+# status: 0
+
+#### Pass 3
+
+Write done: 2672000 in 2.0054, score 333106
+Read done: 6495076 in 2.0001, score 811857
+Copy done: 27113628 in 30.0012, score 225938
+
+# COUNT0: 225938
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.061725
+# pid: 11659
+# status: 0
+
+*Dump score:     225938.0
+Count score:     225975.0
+Count score:     226434.0
+
+>>>> Results of 1 copy
+>>>> score: 226204.383578214
+>>>> time: 30
+>>>> iterations: 2
+
+
+########################################################
+File Copy 256 bufsize 500 maxblocks -- 1 copy
+==> "/root/UnixBench/pgms/fstime" -c -t 30 -d "/root/UnixBench/tmp" -b 256 -m 500 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+Write done: 708000 in 2.0012, score 88445
+Read done: 1766157 in 2.0001, score 220762
+Copy done: 7384603 in 30.0020, score 61534
+
+# COUNT0: 61534
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.039825
+# pid: 11714
+# status: 0
+
+#### Pass 2
+
+Write done: 702000 in 2.0021, score 87656
+Read done: 1757385 in 2.0001, score 219666
+Copy done: 7378845 in 30.0001, score 61490
+
+# COUNT0: 61490
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.044144
+# pid: 11782
+# status: 0
+
+#### Pass 3
+
+Write done: 702000 in 2.0035, score 87594
+Read done: 1736508 in 2.0001, score 217056
+Copy done: 7346275 in 30.0008, score 61217
+
+# COUNT0: 61217
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.057505
+# pid: 11837
+# status: 0
+
+*Dump score:      61217.0
+Count score:      61490.0
+Count score:      61534.0
+
+>>>> Results of 1 copy
+>>>> score: 61511.9960658082
+>>>> time: 30
+>>>> iterations: 2
+
+
+########################################################
+File Copy 4096 bufsize 8000 maxblocks -- 1 copy
+==> "/root/UnixBench/pgms/fstime" -c -t 30 -d "/root/UnixBench/tmp" -b 4096 -m 8000 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+Write done: 7712000 in 2.0015, score 963262
+Read done: 15726080 in 2.0001, score 1965688
+Copy done: 69436656 in 30.0148, score 578354
+
+# COUNT0: 578354
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.076753
+# pid: 11905
+# status: 0
+
+#### Pass 2
+
+Write done: 7776000 in 2.0026, score 970730
+Read done: 14784768 in 2.0001, score 1848029
+Copy done: 68163024 in 30.0015, score 567996
+
+# COUNT0: 567996
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.083850
+# pid: 11914
+# status: 0
+
+#### Pass 3
+
+Write done: 7648000 in 2.0063, score 952983
+Read done: 14934832 in 2.0001, score 1866788
+Copy done: 68850448 in 30.0128, score 573508
+
+# COUNT0: 573508
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.081602
+# pid: 11969
+# status: 0
+
+*Dump score:     567996.0
+Count score:     573508.0
+Count score:     578354.0
+
+>>>> Results of 1 copy
+>>>> score: 575925.903074345
+>>>> time: 30
+>>>> iterations: 2
+
+
+########################################################
+Pipe Throughput -- 1 copy
+==> "/root/UnixBench/pgms/pipe" 10 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 3685352
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007401
+# pid: 12037
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 3692619
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007621
+# pid: 12046
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 3729283
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008014
+# pid: 12055
+# status: 0
+
+#### Pass 4
+
+
+# COUNT0: 3757162
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007427
+# pid: 12110
+# status: 0
+
+#### Pass 5
+
+
+# COUNT0: 3736407
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007583
+# pid: 12119
+# status: 0
+
+#### Pass 6
+
+
+# COUNT0: 3675810
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007035
+# pid: 12128
+# status: 0
+
+#### Pass 7
+
+
+# COUNT0: 3628285
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006633
+# pid: 12137
+# status: 0
+
+#### Pass 8
+
+
+# COUNT0: 3705588
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007499
+# pid: 12146
+# status: 0
+
+#### Pass 9
+
+
+# COUNT0: 3663442
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007293
+# pid: 12214
+# status: 0
+
+#### Pass 10
+
+
+# COUNT0: 3678306
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006924
+# pid: 12223
+# status: 0
+
+*Dump score:    3628285.0
+*Dump score:    3663442.0
+*Dump score:    3675810.0
+Count score:    3678306.0
+Count score:    3685352.0
+Count score:    3692619.0
+Count score:    3705588.0
+Count score:    3729283.0
+Count score:    3736407.0
+Count score:    3757162.0
+
+>>>> Results of 1 copy
+>>>> score: 370922.232690744
+>>>> time: 10.0074955714286
+>>>> iterations: 7
+
+
+########################################################
+Pipe-based Context Switching -- 1 copy
+==> "/root/UnixBench/pgms/context1" 10 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 286384
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007257
+# pid: 12232
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 312534
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007321
+# pid: 12242
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 274658
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008052
+# pid: 12298
+# status: 0
+
+#### Pass 4
+
+
+# COUNT0: 321006
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007857
+# pid: 12308
+# status: 0
+
+#### Pass 5
+
+
+# COUNT0: 290817
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007206
+# pid: 12318
+# status: 0
+
+#### Pass 6
+
+
+# COUNT0: 279896
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007638
+# pid: 12328
+# status: 0
+
+#### Pass 7
+
+
+# COUNT0: 278142
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007683
+# pid: 12338
+# status: 0
+
+#### Pass 8
+
+
+# COUNT0: 294875
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008052
+# pid: 12407
+# status: 0
+
+#### Pass 9
+
+
+# COUNT0: 277428
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006533
+# pid: 12417
+# status: 0
+
+#### Pass 10
+
+
+# COUNT0: 276890
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007674
+# pid: 12427
+# status: 0
+
+*Dump score:     274658.0
+*Dump score:     276890.0
+*Dump score:     277428.0
+Count score:     278142.0
+Count score:     279896.0
+Count score:     286384.0
+Count score:     290817.0
+Count score:     294875.0
+Count score:     312534.0
+Count score:     321006.0
+
+>>>> Results of 1 copy
+>>>> score: 29420.7742570777
+>>>> time: 10.0075734285714
+>>>> iterations: 7
+
+
+########################################################
+Process Creation -- 1 copy
+==> "/root/UnixBench/pgms/spawn" 30 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 38999
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.007526
+# pid: 12437
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 40392
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.007254
+# pid: 19062
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 41346
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.006836
+# pid: 27035
+# status: 0
+
+*Dump score:      38999.0
+Count score:      40392.0
+Count score:      41346.0
+
+>>>> Results of 1 copy
+>>>> score: 1361.88739238472
+>>>> time: 30.007045
+>>>> iterations: 2
+
+
+########################################################
+System Call Overhead -- 1 copy
+==> "/root/UnixBench/pgms/syscall" 10 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 3209529
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007386
+# pid: 3585
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 3207987
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006957
+# pid: 3594
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 3169168
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007196
+# pid: 3603
+# status: 0
+
+#### Pass 4
+
+
+# COUNT0: 3179613
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007944
+# pid: 3658
+# status: 0
+
+#### Pass 5
+
+
+# COUNT0: 3197735
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007010
+# pid: 3667
+# status: 0
+
+#### Pass 6
+
+
+# COUNT0: 3202390
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006589
+# pid: 3676
+# status: 0
+
+#### Pass 7
+
+
+# COUNT0: 3192117
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007190
+# pid: 3685
+# status: 0
+
+#### Pass 8
+
+
+# COUNT0: 3167708
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006934
+# pid: 3694
+# status: 0
+
+#### Pass 9
+
+
+# COUNT0: 3207190
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007774
+# pid: 3762
+# status: 0
+
+#### Pass 10
+
+
+# COUNT0: 3189102
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006913
+# pid: 3771
+# status: 0
+
+*Dump score:    3167708.0
+*Dump score:    3169168.0
+*Dump score:    3179613.0
+Count score:    3189102.0
+Count score:    3192117.0
+Count score:    3197735.0
+Count score:    3202390.0
+Count score:    3207190.0
+Count score:    3207987.0
+Count score:    3209529.0
+
+>>>> Results of 1 copy
+>>>> score: 319857.908826082
+>>>> time: 10.007117
+>>>> iterations: 7
+
+
+########################################################
+Shell Scripts (1 concurrent) -- 1 copy
+==> "/root/UnixBench/pgms/looper" 60 "/root/UnixBench/pgms/multi.sh" 1 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 3201
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.015306
+# pid: 3780
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 3183
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.013180
+# pid: 3422
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 3199
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.021368
+# pid: 2897
+# status: 0
+
+*Dump score:       3183.0
+Count score:       3199.0
+Count score:       3201.0
+
+>>>> Results of 1 copy
+>>>> score: 3199.02217333739
+>>>> time: 60.018337
+>>>> iterations: 2
+
+
+########################################################
+Shell Scripts (8 concurrent) -- 1 copy
+==> "/root/UnixBench/pgms/looper" 60 "/root/UnixBench/pgms/multi.sh" 8 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 1190
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.020439
+# pid: 2519
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 1193
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.034958
+# pid: 24866
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 1186
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.041468
+# pid: 15003
+# status: 0
+
+*Dump score:       1186.0
+Count score:       1190.0
+Count score:       1193.0
+
+>>>> Results of 1 copy
+>>>> score: 1190.94927271758
+>>>> time: 60.0276985
+>>>> iterations: 2
+
+
+########################################################
+Dhrystone 2 using register variables -- 8 copies
+==> "/root/UnixBench/pgms/dhry2reg" 10 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 233957337
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009061
+# pid: 4653
+# status: 0
+
+# COUNT0: 233614206
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008336
+# pid: 4654
+# status: 0
+
+# COUNT0: 236558233
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008171
+# pid: 4656
+# status: 0
+
+# COUNT0: 165254013
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008673
+# pid: 4659
+# status: 0
+
+# COUNT0: 165049058
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010269
+# pid: 4662
+# status: 0
+
+# COUNT0: 165485113
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010227
+# pid: 4665
+# status: 0
+
+# COUNT0: 163359815
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009716
+# pid: 4669
+# status: 0
+
+# COUNT0: 227377677
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009781
+# pid: 4671
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 170501273
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008087
+# pid: 4729
+# status: 0
+
+# COUNT0: 231054716
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008419
+# pid: 4730
+# status: 0
+
+# COUNT0: 164765824
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008771
+# pid: 4732
+# status: 0
+
+# COUNT0: 168224172
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008255
+# pid: 4735
+# status: 0
+
+# COUNT0: 161663223
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009927
+# pid: 4738
+# status: 0
+
+# COUNT0: 230805555
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008463
+# pid: 4742
+# status: 0
+
+# COUNT0: 235268384
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007689
+# pid: 4744
+# status: 0
+
+# COUNT0: 232237239
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006854
+# pid: 4748
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 227288761
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007896
+# pid: 4759
+# status: 0
+
+# COUNT0: 167915264
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008234
+# pid: 4760
+# status: 0
+
+# COUNT0: 170810311
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008164
+# pid: 4762
+# status: 0
+
+# COUNT0: 175430843
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010668
+# pid: 4765
+# status: 0
+
+# COUNT0: 219671527
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008285
+# pid: 4768
+# status: 0
+
+# COUNT0: 168188188
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008104
+# pid: 4771
+# status: 0
+
+# COUNT0: 231724805
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007687
+# pid: 4774
+# status: 0
+
+# COUNT0: 218175436
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006997
+# pid: 4777
+# status: 0
+
+#### Pass 4
+
+
+# COUNT0: 180932008
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008158
+# pid: 4789
+# status: 0
+
+# COUNT0: 210480715
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008307
+# pid: 4790
+# status: 0
+
+# COUNT0: 172323076
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008096
+# pid: 4792
+# status: 0
+
+# COUNT0: 232994092
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.011084
+# pid: 4795
+# status: 0
+
+# COUNT0: 205590953
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008584
+# pid: 4798
+# status: 0
+
+# COUNT0: 167395727
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008291
+# pid: 4802
+# status: 0
+
+# COUNT0: 236631682
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007551
+# pid: 4804
+# status: 0
+
+# COUNT0: 200844314
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006923
+# pid: 4807
+# status: 0
+
+#### Pass 5
+
+
+# COUNT0: 233663133
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007447
+# pid: 4819
+# status: 0
+
+# COUNT0: 166614506
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007877
+# pid: 4820
+# status: 0
+
+# COUNT0: 232419490
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007588
+# pid: 4822
+# status: 0
+
+# COUNT0: 165931548
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008367
+# pid: 4825
+# status: 0
+
+# COUNT0: 199813560
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009068
+# pid: 4828
+# status: 0
+
+# COUNT0: 166676249
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008347
+# pid: 4831
+# status: 0
+
+# COUNT0: 232567998
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008775
+# pid: 4834
+# status: 0
+
+# COUNT0: 180131861
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007935
+# pid: 4837
+# status: 0
+
+#### Pass 6
+
+
+# COUNT0: 171884573
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007478
+# pid: 4849
+# status: 0
+
+# COUNT0: 166872774
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008351
+# pid: 4850
+# status: 0
+
+# COUNT0: 166589556
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008094
+# pid: 4852
+# status: 0
+
+# COUNT0: 239322885
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007729
+# pid: 4855
+# status: 0
+
+# COUNT0: 239145983
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008237
+# pid: 4858
+# status: 0
+
+# COUNT0: 238405119
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008858
+# pid: 4861
+# status: 0
+
+# COUNT0: 233670934
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008244
+# pid: 4864
+# status: 0
+
+# COUNT0: 167082450
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008003
+# pid: 4867
+# status: 0
+
+#### Pass 7
+
+
+# COUNT0: 167826921
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007761
+# pid: 4938
+# status: 0
+
+# COUNT0: 240075304
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008262
+# pid: 4939
+# status: 0
+
+# COUNT0: 166707172
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007941
+# pid: 4941
+# status: 0
+
+# COUNT0: 239890347
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007766
+# pid: 4944
+# status: 0
+
+# COUNT0: 238889958
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008975
+# pid: 4947
+# status: 0
+
+# COUNT0: 239090298
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009135
+# pid: 4950
+# status: 0
+
+# COUNT0: 166740072
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008706
+# pid: 4953
+# status: 0
+
+# COUNT0: 167975519
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010382
+# pid: 4956
+# status: 0
+
+#### Pass 8
+
+
+# COUNT0: 211268078
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007946
+# pid: 4968
+# status: 0
+
+# COUNT0: 166177655
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007788
+# pid: 4969
+# status: 0
+
+# COUNT0: 212819014
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008448
+# pid: 4971
+# status: 0
+
+# COUNT0: 234385708
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008312
+# pid: 4974
+# status: 0
+
+# COUNT0: 186353905
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009067
+# pid: 4977
+# status: 0
+
+# COUNT0: 188378519
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007882
+# pid: 4980
+# status: 0
+
+# COUNT0: 234882254
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007691
+# pid: 4983
+# status: 0
+
+# COUNT0: 166175315
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009797
+# pid: 4985
+# status: 0
+
+#### Pass 9
+
+
+# COUNT0: 221507444
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007821
+# pid: 4998
+# status: 0
+
+# COUNT0: 184630589
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007923
+# pid: 4999
+# status: 0
+
+# COUNT0: 208088359
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008076
+# pid: 5001
+# status: 0
+
+# COUNT0: 168465906
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008142
+# pid: 5004
+# status: 0
+
+# COUNT0: 234115901
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008183
+# pid: 5007
+# status: 0
+
+# COUNT0: 237540107
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007553
+# pid: 5010
+# status: 0
+
+# COUNT0: 182381846
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008514
+# pid: 5013
+# status: 0
+
+# COUNT0: 170410342
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006946
+# pid: 5016
+# status: 0
+
+#### Pass 10
+
+
+# COUNT0: 233771251
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008134
+# pid: 5028
+# status: 0
+
+# COUNT0: 228065320
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008311
+# pid: 5029
+# status: 0
+
+# COUNT0: 172423806
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008226
+# pid: 5031
+# status: 0
+
+# COUNT0: 157576116
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007611
+# pid: 5034
+# status: 0
+
+# COUNT0: 232976925
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009070
+# pid: 5037
+# status: 0
+
+# COUNT0: 236886110
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009455
+# pid: 5040
+# status: 0
+
+# COUNT0: 157891612
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008047
+# pid: 5043
+# status: 0
+
+# COUNT0: 166283720
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007530
+# pid: 5046
+# status: 0
+
+*Dump score: 1577818345.0
+*Dump score: 1579205135.0
+*Dump score: 1585874860.0
+Count score: 1590655452.0
+Count score: 1594520386.0
+Count score: 1600440448.0
+Count score: 1607140494.0
+Count score: 1607192567.0
+Count score: 1622974274.0
+Count score: 1627195591.0
+
+>>>> Sum of 8 copies
+>>>> score: 160575723.734959
+>>>> time: 10.0084232857143
+>>>> iterations: 7
+
+
+########################################################
+Double-Precision Whetstone -- 8 copies
+==> "/root/UnixBench/pgms/whetstone-double"  2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.13 Seconds         25   Passes (x 100)
+       0.60 Seconds        125   Passes (x 100)
+
+Use 2088  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1033.237              0.039
+N2 floating point     -1.12187079889292241       961.052              0.292
+N3 if then else        1.00000000000000000                4155.923    0.052
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  46.549    3.732
+N6 floating point      0.99999987890802811       596.540              1.888
+N7 assignments         3.00000000000000000                3710.215    0.104
+N8 exp,sqrt etc.       0.75100163018453692                  49.791    1.560
+
+MWIPS                                           2723.431              7.667
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.55 Seconds        125   Passes (x 100)
+
+Use 2287  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1025.944              0.043
+N2 floating point     -1.12187079889292241       948.681              0.324
+N3 if then else        1.00000000000000000                3945.075    0.060
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.030    3.396
+N6 floating point      0.99999987890802811       596.522              2.068
+N7 assignments         3.00000000000000000                4063.823    0.104
+N8 exp,sqrt etc.       0.75100163018453692                  41.951    2.028
+
+MWIPS                                           2850.626              8.023
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.12 Seconds         25   Passes (x 100)
+       0.55 Seconds        125   Passes (x 100)
+
+Use 2271  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1038.171              0.042
+N2 floating point     -1.12187079889292241       965.894              0.316
+N3 if then else        1.00000000000000000                3917.475    0.060
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  38.750    4.876
+N6 floating point      0.99999987890802811       590.066              2.076
+N7 assignments         3.00000000000000000                2914.450    0.144
+N8 exp,sqrt etc.       0.75100163018453692                  46.316    1.824
+
+MWIPS                                           2431.998              9.338
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.11 Seconds         25   Passes (x 100)
+       0.52 Seconds        125   Passes (x 100)
+
+Use 2392  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1034.378              0.044
+N2 floating point     -1.12187079889292241       956.800              0.336
+N3 if then else        1.00000000000000000                4420.929    0.056
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  39.708    5.012
+N6 floating point      0.99999987890802811       591.855              2.180
+N7 assignments         3.00000000000000000                3157.440    0.140
+N8 exp,sqrt etc.       0.75100163018453692                  50.789    1.752
+
+MWIPS                                           2512.499              9.520
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.13 Seconds        625   Passes (x 100)
+
+Use 2932  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1066.182              0.053
+N2 floating point     -1.12187079889292241       985.152              0.400
+N3 if then else        1.00000000000000000                4462.677    0.068
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.625    4.308
+N6 floating point      0.99999987890802811       596.350              2.652
+N7 assignments         3.00000000000000000                3762.733    0.144
+N8 exp,sqrt etc.       0.75100163018453692                  51.840    2.104
+
+MWIPS                                           3013.732              9.729
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.13 Seconds        625   Passes (x 100)
+
+Use 2932  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1066.182              0.053
+N2 floating point     -1.12187079889292241       985.152              0.400
+N3 if then else        1.00000000000000000                4214.750    0.072
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.625    4.308
+N6 floating point      0.99999987890802811       596.350              2.652
+N7 assignments         3.00000000000000000                3225.200    0.168
+N8 exp,sqrt etc.       0.75100163018453692                  51.741    2.108
+
+MWIPS                                           3003.852              9.761
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.19 Seconds        625   Passes (x 100)
+
+Use 2852  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1037.091              0.053
+N2 floating point     -1.12187079889292241       977.829              0.392
+N3 if then else        1.00000000000000000                3883.974    0.076
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  45.353    5.232
+N6 floating point      0.99999987890802811       596.267              2.580
+N7 assignments         3.00000000000000000                3992.800    0.132
+N8 exp,sqrt etc.       0.75100163018453692                  51.602    2.056
+
+MWIPS                                           2710.820             10.521
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.24 Seconds        625   Passes (x 100)
+
+Use 2796  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1040.372              0.052
+N2 floating point     -1.12187079889292241       978.600              0.384
+N3 if then else        1.00000000000000000                4019.250    0.072
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  40.669    5.720
+N6 floating point      0.99999987890802811       597.529              2.524
+N7 assignments         3.00000000000000000                3399.347    0.152
+N8 exp,sqrt etc.       0.75100163018453692                  51.593    2.016
+
+MWIPS                                           2560.533             10.920
+
+
+# COUNT0: 3003.852
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.761
+# elapsed: 13.049766
+# pid: 5104
+# status: 0
+
+# COUNT0: 2850.626
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 8.023
+# elapsed: 9.108645
+# pid: 5105
+# status: 0
+
+# COUNT0: 2710.820
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 10.521
+# elapsed: 13.863203
+# pid: 5107
+# status: 0
+
+# COUNT0: 2512.499
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.520
+# elapsed: 10.613985
+# pid: 5110
+# status: 0
+
+# COUNT0: 3013.732
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.729
+# elapsed: 13.008114
+# pid: 5114
+# status: 0
+
+# COUNT0: 2723.431
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 7.667
+# elapsed: 8.806546
+# pid: 5116
+# status: 0
+
+# COUNT0: 2431.998
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.338
+# elapsed: 10.453721
+# pid: 5120
+# status: 0
+
+# COUNT0: 2560.533
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 10.920
+# elapsed: 14.299047
+# pid: 5122
+# status: 0
+
+#### Pass 2
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.11 Seconds         25   Passes (x 100)
+       0.59 Seconds        125   Passes (x 100)
+
+Use 2131  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1054.515              0.039
+N2 floating point     -1.12187079889292241       980.844              0.292
+N3 if then else        1.00000000000000000                4241.510    0.052
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.465    3.140
+N6 floating point      0.99999987890802811       594.959              1.932
+N7 assignments         3.00000000000000000                2812.920    0.140
+N8 exp,sqrt etc.       0.75100163018453692                  29.492    2.688
+
+MWIPS                                           2572.801              8.283
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.03 Seconds          5   Passes (x 100)
+       0.11 Seconds         25   Passes (x 100)
+       0.52 Seconds        125   Passes (x 100)
+
+Use 2411  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1024.142              0.045
+N2 floating point     -1.12187079889292241       964.400              0.336
+N3 if then else        1.00000000000000000                4456.045    0.056
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  40.216    4.988
+N6 floating point      0.99999987890802811       590.061              2.204
+N7 assignments         3.00000000000000000                3094.117    0.144
+N8 exp,sqrt etc.       0.75100163018453692                  50.615    1.772
+
+MWIPS                                           2525.877              9.545
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.50 Seconds        125   Passes (x 100)
+
+Use 2488  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1029.517              0.046
+N2 floating point     -1.12187079889292241       949.964              0.352
+N3 if then else        1.00000000000000000                4598.357    0.056
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  40.117    5.160
+N6 floating point      0.99999987890802811       589.643              2.276
+N7 assignments         3.00000000000000000                2947.323    0.156
+N8 exp,sqrt etc.       0.75100163018453692                  30.246    3.060
+
+MWIPS                                           2240.150             11.106
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.22 Seconds        625   Passes (x 100)
+
+Use 2821  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1057.875              0.051
+N2 floating point     -1.12187079889292241       997.743              0.380
+N3 if then else        1.00000000000000000                4293.728    0.068
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.857    4.128
+N6 floating point      0.99999987890802811       597.193              2.548
+N7 assignments         3.00000000000000000                3429.742    0.152
+N8 exp,sqrt etc.       0.75100163018453692                  51.746    2.028
+
+MWIPS                                           3015.435              9.355
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.14 Seconds        625   Passes (x 100)
+
+Use 2916  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1060.364              0.053
+N2 floating point     -1.12187079889292241       989.673              0.396
+N3 if then else        1.00000000000000000                4191.750    0.072
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.844    4.268
+N6 floating point      0.99999987890802811       596.696              2.636
+N7 assignments         3.00000000000000000                4082.400    0.132
+N8 exp,sqrt etc.       0.75100163018453692                  51.655    2.100
+
+MWIPS                                           3019.634              9.657
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.11 Seconds         25   Passes (x 100)
+       0.47 Seconds        125   Passes (x 100)
+       2.14 Seconds        625   Passes (x 100)
+
+Use 2921  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1046.328              0.054
+N2 floating point     -1.12187079889292241       991.370              0.396
+N3 if then else        1.00000000000000000                3977.941    0.076
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.256    4.320
+N6 floating point      0.99999987890802811       596.813              2.640
+N7 assignments         3.00000000000000000                3855.720    0.140
+N8 exp,sqrt etc.       0.75100163018453692                  51.645    2.104
+
+MWIPS                                           3002.179              9.730
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.20 Seconds        625   Passes (x 100)
+
+Use 2836  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1063.500              0.051
+N2 floating point     -1.12187079889292241       982.367              0.388
+N3 if then else        1.00000000000000000                3494.357    0.084
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  50.289    4.692
+N6 floating point      0.99999987890802811       596.622              2.564
+N7 assignments         3.00000000000000000                3743.520    0.140
+N8 exp,sqrt etc.       0.75100163018453692                  51.614    2.044
+
+MWIPS                                           2846.475              9.963
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.49 Seconds        125   Passes (x 100)
+       2.54 Seconds        625   Passes (x 100)
+
+Use 2464  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1046.655              0.045
+N2 floating point     -1.12187079889292241       974.005              0.340
+N3 if then else        1.00000000000000000                3542.000    0.072
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  37.908    5.408
+N6 floating point      0.99999987890802811       589.132              2.256
+N7 assignments         3.00000000000000000                3162.133    0.144
+N8 exp,sqrt etc.       0.75100163018453692                  51.264    1.788
+
+MWIPS                                           2450.961             10.053
+
+
+# COUNT0: 2450.961
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 10.053
+# elapsed: 13.739563
+# pid: 5134
+# status: 0
+
+# COUNT0: 2240.150
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 11.106
+# elapsed: 12.193797
+# pid: 5135
+# status: 0
+
+# COUNT0: 3015.435
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.355
+# elapsed: 12.702091
+# pid: 5137
+# status: 0
+
+# COUNT0: 2846.475
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.963
+# elapsed: 13.302841
+# pid: 5140
+# status: 0
+
+# COUNT0: 2525.877
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.545
+# elapsed: 10.644453
+# pid: 5143
+# status: 0
+
+# COUNT0: 2572.801
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 8.283
+# elapsed: 9.390249
+# pid: 5146
+# status: 0
+
+# COUNT0: 3019.634
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.657
+# elapsed: 12.942042
+# pid: 5149
+# status: 0
+
+# COUNT0: 3002.179
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.730
+# elapsed: 13.094905
+# pid: 5152
+# status: 0
+
+#### Pass 3
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.11 Seconds         25   Passes (x 100)
+       0.53 Seconds        125   Passes (x 100)
+
+Use 2376  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1027.459              0.044
+N2 floating point     -1.12187079889292241       961.851              0.332
+N3 if then else        1.00000000000000000                4391.357    0.056
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  44.523    4.440
+N6 floating point      0.99999987890802811       595.546              2.152
+N7 assignments         3.00000000000000000                2744.280    0.160
+N8 exp,sqrt etc.       0.75100163018453692                  44.460    1.988
+
+MWIPS                                           2590.380              9.172
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.51 Seconds        125   Passes (x 100)
+
+Use 2450  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1022.609              0.046
+N2 floating point     -1.12187079889292241       957.209              0.344
+N3 if then else        1.00000000000000000                4528.125    0.056
+N4 fixed point        12.00000000000000000               192937.504    0.004
+N5 sin,cos etc.        0.49902937281518261                  43.333    4.704
+N6 floating point      0.99999987890802811       596.358              2.216
+N7 assignments         3.00000000000000000                3059.189    0.148
+N8 exp,sqrt etc.       0.75100163018453692                  47.076    1.936
+
+MWIPS                                           2591.496              9.454
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.11 Seconds         25   Passes (x 100)
+       0.55 Seconds        125   Passes (x 100)
+
+Use 2272  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1028.830              0.042
+N2 floating point     -1.12187079889292241       966.319              0.316
+N3 if then else        1.00000000000000000                3919.200    0.060
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  40.322    4.688
+N6 floating point      0.99999987890802811       596.068              2.056
+N7 assignments         3.00000000000000000                2762.274    0.152
+N8 exp,sqrt etc.       0.75100163018453692                  37.731    2.240
+
+MWIPS                                           2377.962              9.554
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.50 Seconds        125   Passes (x 100)
+
+Use 2488  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1029.517              0.046
+N2 floating point     -1.12187079889292241       960.883              0.348
+N3 if then else        1.00000000000000000                4291.800    0.060
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  43.306    4.780
+N6 floating point      0.99999987890802811       595.927              2.252
+N7 assignments         3.00000000000000000                3192.933    0.144
+N8 exp,sqrt etc.       0.75100163018453692                  40.452    2.288
+
+MWIPS                                           2508.469              9.918
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.12 Seconds        625   Passes (x 100)
+
+Use 2943  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1062.135              0.053
+N2 floating point     -1.12187079889292241       979.057              0.404
+N3 if then else        1.00000000000000000                4230.563    0.072
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.733    4.316
+N6 floating point      0.99999987890802811       597.686              2.656
+N7 assignments         3.00000000000000000                3578.068    0.152
+N8 exp,sqrt etc.       0.75100163018453692                  51.837    2.112
+
+MWIPS                                           3013.763              9.765
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.12 Seconds        625   Passes (x 100)
+
+Use 2954  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1058.149              0.054
+N2 floating point     -1.12187079889292241       992.544              0.400
+N3 if then else        1.00000000000000000                4246.375    0.072
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.734    4.332
+N6 floating point      0.99999987890802811       596.328              2.672
+N7 assignments         3.00000000000000000                4135.600    0.132
+N8 exp,sqrt etc.       0.75100163018453692                  51.834    2.120
+
+MWIPS                                           3019.956              9.782
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.12 Seconds        625   Passes (x 100)
+
+Use 2949  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1056.358              0.054
+N2 floating point     -1.12187079889292241       990.864              0.400
+N3 if then else        1.00000000000000000                4488.552    0.068
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.482    4.344
+N6 floating point      0.99999987890802811       597.106              2.664
+N7 assignments         3.00000000000000000                3682.265    0.148
+N8 exp,sqrt etc.       0.75100163018453692                  51.844    2.116
+
+MWIPS                                           3011.150              9.794
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.44 Seconds        125   Passes (x 100)
+       2.19 Seconds        625   Passes (x 100)
+
+Use 2852  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1061.209              0.052
+N2 floating point     -1.12187079889292241       987.909              0.388
+N3 if then else        1.00000000000000000                4340.912    0.068
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  52.871    4.488
+N6 floating point      0.99999987890802811       597.193              2.576
+N7 assignments         3.00000000000000000                3764.640    0.140
+N8 exp,sqrt etc.       0.75100163018453692                  51.804    2.048
+
+MWIPS                                           2922.251              9.760
+
+
+# COUNT0: 3019.956
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.782
+# elapsed: 13.055393
+# pid: 5164
+# status: 0
+
+# COUNT0: 2590.380
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.172
+# elapsed: 10.267588
+# pid: 5165
+# status: 0
+
+# COUNT0: 3013.763
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.765
+# elapsed: 13.035932
+# pid: 5167
+# status: 0
+
+# COUNT0: 2377.962
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.554
+# elapsed: 10.651004
+# pid: 5170
+# status: 0
+
+# COUNT0: 2591.496
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.454
+# elapsed: 10.529908
+# pid: 5173
+# status: 0
+
+# COUNT0: 2922.251
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.760
+# elapsed: 13.103629
+# pid: 5176
+# status: 0
+
+# COUNT0: 2508.469
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.918
+# elapsed: 11.008352
+# pid: 5179
+# status: 0
+
+# COUNT0: 3011.150
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.794
+# elapsed: 13.073337
+# pid: 5182
+# status: 0
+
+#### Pass 4
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.12 Seconds         25   Passes (x 100)
+       0.54 Seconds        125   Passes (x 100)
+
+Use 2306  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1034.467              0.043
+N2 floating point     -1.12187079889292241       956.563              0.324
+N3 if then else        1.00000000000000000                4261.982    0.056
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  44.785    4.284
+N6 floating point      0.99999987890802811       595.717              2.088
+N7 assignments         3.00000000000000000                2663.430    0.160
+N8 exp,sqrt etc.       0.75100163018453692                  35.803    2.396
+
+MWIPS                                           2466.099              9.351
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.11 Seconds         25   Passes (x 100)
+       0.52 Seconds        125   Passes (x 100)
+
+Use 2413  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1024.991              0.045
+N2 floating point     -1.12187079889292241       953.845              0.340
+N3 if then else        1.00000000000000000                4162.425    0.060
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  44.338    4.528
+N6 floating point      0.99999987890802811       595.958              2.184
+N7 assignments         3.00000000000000000                3185.160    0.140
+N8 exp,sqrt etc.       0.75100163018453692                  38.035    2.360
+
+MWIPS                                           2498.654              9.657
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.12 Seconds         25   Passes (x 100)
+       0.51 Seconds        125   Passes (x 100)
+
+Use 2431  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1041.857              0.045
+N2 floating point     -1.12187079889292241       984.116              0.332
+N3 if then else        1.00000000000000000                3931.383    0.064
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  40.035    5.052
+N6 floating point      0.99999987890802811       589.605              2.224
+N7 assignments         3.00000000000000000                3035.465    0.148
+N8 exp,sqrt etc.       0.75100163018453692                  30.593    2.956
+
+MWIPS                                           2246.599             10.821
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.50 Seconds        125   Passes (x 100)
+       2.48 Seconds        625   Passes (x 100)
+
+Use 2524  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1062.737              0.046
+N2 floating point     -1.12187079889292241       986.121              0.344
+N3 if then else        1.00000000000000000                4081.781    0.064
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.941    3.688
+N6 floating point      0.99999987890802811       596.080              2.284
+N7 assignments         3.00000000000000000                4020.993    0.116
+N8 exp,sqrt etc.       0.75100163018453692                  51.476    1.824
+
+MWIPS                                           3017.118              8.366
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.45 Seconds        125   Passes (x 100)
+       2.17 Seconds        625   Passes (x 100)
+
+Use 2883  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1064.492              0.052
+N2 floating point     -1.12187079889292241       988.457              0.392
+N3 if then else        1.00000000000000000                4388.096    0.068
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.733    4.228
+N6 floating point      0.99999987890802811       597.193              2.604
+N7 assignments         3.00000000000000000                3917.488    0.136
+N8 exp,sqrt etc.       0.75100163018453692                  50.210    2.136
+
+MWIPS                                           2998.128              9.616
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.12 Seconds        625   Passes (x 100)
+
+Use 2954  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1058.149              0.054
+N2 floating point     -1.12187079889292241       992.544              0.400
+N3 if then else        1.00000000000000000                3821.738    0.080
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.892    4.320
+N6 floating point      0.99999987890802811       597.222              2.668
+N7 assignments         3.00000000000000000                3499.354    0.156
+N8 exp,sqrt etc.       0.75100163018453692                  51.254    2.144
+
+MWIPS                                           3007.657              9.822
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.12 Seconds        625   Passes (x 100)
+
+Use 2949  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1064.301              0.053
+N2 floating point     -1.12187079889292241       990.864              0.400
+N3 if then else        1.00000000000000000                3317.625    0.092
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.326    4.356
+N6 floating point      0.99999987890802811       597.106              2.664
+N7 assignments         3.00000000000000000                3892.680    0.140
+N8 exp,sqrt etc.       0.75100163018453692                  51.359    2.136
+
+MWIPS                                           2996.586              9.841
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.20 Seconds        625   Passes (x 100)
+
+Use 2841  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1040.977              0.052
+N2 floating point     -1.12187079889292241       984.099              0.388
+N3 if then else        1.00000000000000000                3341.403    0.088
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  39.820    5.936
+N6 floating point      0.99999987890802811       590.306              2.596
+N7 assignments         3.00000000000000000                3454.058    0.152
+N8 exp,sqrt etc.       0.75100163018453692                  51.705    2.044
+
+MWIPS                                           2523.898             11.256
+
+
+# COUNT0: 3017.118
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 8.366
+# elapsed: 12.036913
+# pid: 5194
+# status: 0
+
+# COUNT0: 2523.898
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 11.256
+# elapsed: 14.630774
+# pid: 5195
+# status: 0
+
+# COUNT0: 2498.654
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.657
+# elapsed: 10.787343
+# pid: 5197
+# status: 0
+
+# COUNT0: 2996.586
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.841
+# elapsed: 13.116076
+# pid: 5200
+# status: 0
+
+# COUNT0: 2998.128
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.616
+# elapsed: 12.960406
+# pid: 5204
+# status: 0
+
+# COUNT0: 2246.599
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 10.821
+# elapsed: 11.926520
+# pid: 5206
+# status: 0
+
+# COUNT0: 3007.657
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.822
+# elapsed: 13.091236
+# pid: 5210
+# status: 0
+
+# COUNT0: 2466.099
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.351
+# elapsed: 10.482683
+# pid: 5213
+# status: 0
+
+#### Pass 5
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.11 Seconds         25   Passes (x 100)
+       0.64 Seconds        125   Passes (x 100)
+
+Use 1958  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1021.565              0.037
+N2 floating point     -1.12187079889292241       967.482              0.272
+N3 if then else        1.00000000000000000                4221.937    0.048
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  46.491    3.504
+N6 floating point      0.99999987890802811       590.685              1.788
+N7 assignments         3.00000000000000000                2741.200    0.132
+N8 exp,sqrt etc.       0.75100163018453692                  33.473    2.176
+
+MWIPS                                           2460.788              7.957
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.11 Seconds         25   Passes (x 100)
+       0.51 Seconds        125   Passes (x 100)
+
+Use 2430  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1041.429              0.045
+N2 floating point     -1.12187079889292241       983.711              0.332
+N3 if then else        1.00000000000000000                4191.750    0.060
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  42.980    4.704
+N6 floating point      0.99999987890802811       596.877              2.196
+N7 assignments         3.00000000000000000                4158.000    0.108
+N8 exp,sqrt etc.       0.75100163018453692                  51.129    1.768
+
+MWIPS                                           2637.635              9.213
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.51 Seconds        125   Passes (x 100)
+
+Use 2470  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1040.000              0.046
+N2 floating point     -1.12187079889292241       943.091              0.352
+N3 if then else        1.00000000000000000                3994.453    0.064
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  40.839    5.032
+N6 floating point      0.99999987890802811       591.615              2.252
+N7 assignments         3.00000000000000000                3260.400    0.140
+N8 exp,sqrt etc.       0.75100163018453692                  37.291    2.464
+
+MWIPS                                           2386.566             10.350
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.50 Seconds        125   Passes (x 100)
+       2.68 Seconds        625   Passes (x 100)
+
+Use 2332  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1046.131              0.043
+N2 floating point     -1.12187079889292241       979.440              0.320
+N3 if then else        1.00000000000000000                4022.700    0.060
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  44.664    4.344
+N6 floating point      0.99999987890802811       596.718              2.108
+N7 assignments         3.00000000000000000                3715.117    0.116
+N8 exp,sqrt etc.       0.75100163018453692                  51.150    1.696
+
+MWIPS                                           2684.533              8.687
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.12 Seconds        625   Passes (x 100)
+
+Use 2949  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1064.301              0.053
+N2 floating point     -1.12187079889292241       990.864              0.400
+N3 if then else        1.00000000000000000                3815.269    0.080
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.430    4.348
+N6 floating point      0.99999987890802811       597.106              2.664
+N7 assignments         3.00000000000000000                3892.680    0.140
+N8 exp,sqrt etc.       0.75100163018453692                  51.747    2.120
+
+MWIPS                                           3007.588              9.805
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.12 Seconds         25   Passes (x 100)
+       0.44 Seconds        125   Passes (x 100)
+       2.13 Seconds        625   Passes (x 100)
+
+Use 2932  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1058.165              0.053
+N2 floating point     -1.12187079889292241       995.103              0.396
+N3 if then else        1.00000000000000000                3992.921    0.076
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.520    4.316
+N6 floating point      0.99999987890802811       597.251              2.648
+N7 assignments         3.00000000000000000                3984.071    0.136
+N8 exp,sqrt etc.       0.75100163018453692                  51.741    2.108
+
+MWIPS                                           3012.370              9.733
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.47 Seconds        125   Passes (x 100)
+       2.32 Seconds        625   Passes (x 100)
+
+Use 2690  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1067.107              0.048
+N2 floating point     -1.12187079889292241       982.435              0.368
+N3 if then else        1.00000000000000000                4640.250    0.060
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  43.781    5.112
+N6 floating point      0.99999987890802811       593.693              2.444
+N7 assignments         3.00000000000000000                3550.800    0.140
+N8 exp,sqrt etc.       0.75100163018453692                  51.581    1.940
+
+MWIPS                                           2660.100             10.112
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.12 Seconds        625   Passes (x 100)
+
+Use 2949  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1056.358              0.054
+N2 floating point     -1.12187079889292241       990.864              0.400
+N3 if then else        1.00000000000000000                4016.072    0.076
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  47.735    5.140
+N6 floating point      0.99999987890802811       596.211              2.668
+N7 assignments         3.00000000000000000                3323.020    0.164
+N8 exp,sqrt etc.       0.75100163018453692                  51.844    2.116
+
+MWIPS                                           2777.464             10.618
+
+
+# COUNT0: 2777.464
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 10.618
+# elapsed: 13.888639
+# pid: 5283
+# status: 0
+
+# COUNT0: 3007.588
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.805
+# elapsed: 13.074897
+# pid: 5284
+# status: 0
+
+# COUNT0: 2460.788
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 7.957
+# elapsed: 9.096014
+# pid: 5286
+# status: 0
+
+# COUNT0: 2660.100
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 10.112
+# elapsed: 13.587710
+# pid: 5290
+# status: 0
+
+# COUNT0: 2684.533
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 8.687
+# elapsed: 12.521700
+# pid: 5292
+# status: 0
+
+# COUNT0: 2637.635
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.213
+# elapsed: 10.305793
+# pid: 5295
+# status: 0
+
+# COUNT0: 2386.566
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 10.350
+# elapsed: 11.405490
+# pid: 5299
+# status: 0
+
+# COUNT0: 3012.370
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.733
+# elapsed: 13.072130
+# pid: 5301
+# status: 0
+
+#### Pass 6
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.11 Seconds         25   Passes (x 100)
+       0.63 Seconds        125   Passes (x 100)
+
+Use 1971  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1028.348              0.037
+N2 floating point     -1.12187079889292241       959.791              0.276
+N3 if then else        1.00000000000000000                4249.969    0.048
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  43.383    3.780
+N6 floating point      0.99999987890802811       590.643              1.800
+N7 assignments         3.00000000000000000                2759.400    0.132
+N8 exp,sqrt etc.       0.75100163018453692                  28.958    2.532
+
+MWIPS                                           2290.582              8.605
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.03 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.51 Seconds        125   Passes (x 100)
+
+Use 2468  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1030.122              0.046
+N2 floating point     -1.12187079889292241       953.159              0.348
+N3 if then else        1.00000000000000000                3756.441    0.068
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  38.424    5.344
+N6 floating point      0.99999987890802811       590.088              2.256
+N7 assignments         3.00000000000000000                3167.267    0.144
+N8 exp,sqrt etc.       0.75100163018453692                  50.780    1.808
+
+MWIPS                                           2464.550             10.014
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.03 Seconds          5   Passes (x 100)
+       0.11 Seconds         25   Passes (x 100)
+       0.51 Seconds        125   Passes (x 100)
+
+Use 2449  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1040.283              0.045
+N2 floating point     -1.12187079889292241       979.600              0.336
+N3 if then else        1.00000000000000000                3727.522    0.068
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  41.448    4.916
+N6 floating point      0.99999987890802811       589.728              2.240
+N7 assignments         3.00000000000000000                3232.680    0.140
+N8 exp,sqrt etc.       0.75100163018453692                  30.047    3.032
+
+MWIPS                                           2272.390             10.777
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.23 Seconds        625   Passes (x 100)
+
+Use 2800  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1058.268              0.051
+N2 floating point     -1.12187079889292241       990.316              0.380
+N3 if then else        1.00000000000000000                4025.000    0.072
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.764    4.104
+N6 floating point      0.99999987890802811       597.437              2.528
+N7 assignments         3.00000000000000000                4042.500    0.128
+N8 exp,sqrt etc.       0.75100163018453692                  51.769    2.012
+
+MWIPS                                           3018.933              9.275
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.50 Seconds        125   Passes (x 100)
+       2.19 Seconds        625   Passes (x 100)
+
+Use 2857  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1054.892              0.052
+N2 floating point     -1.12187079889292241       999.950              0.384
+N3 if then else        1.00000000000000000                4106.937    0.072
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.542    4.204
+N6 floating point      0.99999987890802811       596.388              2.584
+N7 assignments         3.00000000000000000                3771.240    0.140
+N8 exp,sqrt etc.       0.75100163018453692                  51.393    2.068
+
+MWIPS                                           3006.103              9.504
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.12 Seconds        625   Passes (x 100)
+
+Use 2949  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1064.301              0.053
+N2 floating point     -1.12187079889292241       990.864              0.400
+N3 if then else        1.00000000000000000                4239.188    0.072
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.638    4.332
+N6 floating point      0.99999987890802811       597.106              2.664
+N7 assignments         3.00000000000000000                3682.265    0.148
+N8 exp,sqrt etc.       0.75100163018453692                  51.552    2.128
+
+MWIPS                                           3010.044              9.797
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.48 Seconds        125   Passes (x 100)
+       2.11 Seconds        625   Passes (x 100)
+
+Use 2966  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1062.448              0.054
+N2 floating point     -1.12187079889292241       986.709              0.404
+N3 if then else        1.00000000000000000                4263.625    0.072
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.651    4.356
+N6 floating point      0.99999987890802811       597.855              2.676
+N7 assignments         3.00000000000000000                3606.032    0.152
+N8 exp,sqrt etc.       0.75100163018453692                  51.655    2.136
+
+MWIPS                                           3011.290              9.850
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.50 Seconds        125   Passes (x 100)
+       2.67 Seconds        625   Passes (x 100)
+
+Use 2339  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1039.556              0.043
+N2 floating point     -1.12187079889292241       982.380              0.320
+N3 if then else        1.00000000000000000                3782.601    0.064
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  38.735    5.024
+N6 floating point      0.99999987890802811       589.559              2.140
+N7 assignments         3.00000000000000000                3087.480    0.140
+N8 exp,sqrt etc.       0.75100163018453692                  49.103    1.772
+
+MWIPS                                           2461.276              9.503
+
+
+# COUNT0: 3006.103
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.504
+# elapsed: 12.933467
+# pid: 5313
+# status: 0
+
+# COUNT0: 3011.290
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.850
+# elapsed: 13.188346
+# pid: 5314
+# status: 0
+
+# COUNT0: 2290.582
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 8.605
+# elapsed: 9.746726
+# pid: 5316
+# status: 0
+
+# COUNT0: 3018.933
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.275
+# elapsed: 12.636469
+# pid: 5319
+# status: 0
+
+# COUNT0: 2464.550
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 10.014
+# elapsed: 11.105367
+# pid: 5322
+# status: 0
+
+# COUNT0: 2461.276
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.503
+# elapsed: 13.332241
+# pid: 5325
+# status: 0
+
+# COUNT0: 3010.044
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.797
+# elapsed: 13.062231
+# pid: 5328
+# status: 0
+
+# COUNT0: 2272.390
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 10.777
+# elapsed: 11.875038
+# pid: 5331
+# status: 0
+
+#### Pass 7
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.52 Seconds        125   Passes (x 100)
+
+Use 2411  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1033.286              0.045
+N2 floating point     -1.12187079889292241       953.054              0.340
+N3 if then else        1.00000000000000000                3669.684    0.068
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  45.466    4.412
+N6 floating point      0.99999987890802811       595.464              2.184
+N7 assignments         3.00000000000000000                2716.785    0.164
+N8 exp,sqrt etc.       0.75100163018453692                  35.761    2.508
+
+MWIPS                                           2480.249              9.721
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.03 Seconds          5   Passes (x 100)
+       0.14 Seconds         25   Passes (x 100)
+       0.51 Seconds        125   Passes (x 100)
+
+Use 2470  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1030.957              0.046
+N2 floating point     -1.12187079889292241       965.023              0.344
+N3 if then else        1.00000000000000000                3994.453    0.064
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  45.708    4.496
+N6 floating point      0.99999987890802811       596.917              2.232
+N7 assignments         3.00000000000000000                3084.162    0.148
+N8 exp,sqrt etc.       0.75100163018453692                  36.175    2.540
+
+MWIPS                                           2502.533              9.870
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.54 Seconds        125   Passes (x 100)
+
+Use 2321  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1041.196              0.043
+N2 floating point     -1.12187079889292241       974.820              0.320
+N3 if then else        1.00000000000000000                4289.705    0.056
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  39.865    4.844
+N6 floating point      0.99999987890802811       588.321              2.128
+N7 assignments         3.00000000000000000                2749.492    0.156
+N8 exp,sqrt etc.       0.75100163018453692                  32.217    2.680
+
+MWIPS                                           2269.527             10.227
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.42 Seconds        125   Passes (x 100)
+       2.11 Seconds        625   Passes (x 100)
+
+Use 2959  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1067.910              0.053
+N2 floating point     -1.12187079889292241       984.380              0.404
+N3 if then else        1.00000000000000000                3480.188    0.088
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.621    4.348
+N6 floating point      0.99999987890802811       596.444              2.676
+N7 assignments         3.00000000000000000                4142.600    0.132
+N8 exp,sqrt etc.       0.75100163018453692                  51.341    2.144
+
+MWIPS                                           3005.526              9.845
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.12 Seconds        625   Passes (x 100)
+
+Use 2954  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1058.149              0.054
+N2 floating point     -1.12187079889292241       992.544              0.400
+N3 if then else        1.00000000000000000                4246.375    0.072
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.578    4.344
+N6 floating point      0.99999987890802811       596.328              2.672
+N7 assignments         3.00000000000000000                3790.967    0.144
+N8 exp,sqrt etc.       0.75100163018453692                  51.064    2.152
+
+MWIPS                                           3002.765              9.838
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.44 Seconds        125   Passes (x 100)
+       2.70 Seconds        625   Passes (x 100)
+
+Use 2315  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1038.505              0.043
+N2 floating point     -1.12187079889292241       972.300              0.320
+N3 if then else        1.00000000000000000                3993.375    0.060
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  38.216    5.040
+N6 floating point      0.99999987890802811       590.128              2.116
+N7 assignments         3.00000000000000000                4113.577    0.104
+N8 exp,sqrt etc.       0.75100163018453692                  50.897    1.692
+
+MWIPS                                           2469.386              9.375
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.12 Seconds        625   Passes (x 100)
+
+Use 2949  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1056.358              0.054
+N2 floating point     -1.12187079889292241       990.864              0.400
+N3 if then else        1.00000000000000000                3633.589    0.084
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.482    4.344
+N6 floating point      0.99999987890802811       596.211              2.668
+N7 assignments         3.00000000000000000                3892.680    0.140
+N8 exp,sqrt etc.       0.75100163018453692                  39.690    2.764
+
+MWIPS                                           2821.038             10.454
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.48 Seconds        125   Passes (x 100)
+       2.12 Seconds        625   Passes (x 100)
+
+Use 2943  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1062.135              0.053
+N2 floating point     -1.12187079889292241       988.848              0.400
+N3 if then else        1.00000000000000000                4230.563    0.072
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.733    4.316
+N6 floating point      0.99999987890802811       595.891              2.664
+N7 assignments         3.00000000000000000                4120.200    0.132
+N8 exp,sqrt etc.       0.75100163018453692                  39.552    2.768
+
+MWIPS                                           2828.393             10.405
+
+
+# COUNT0: 2469.386
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.375
+# elapsed: 13.156713
+# pid: 5343
+# status: 0
+
+# COUNT0: 3005.526
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.845
+# elapsed: 13.121656
+# pid: 5344
+# status: 0
+
+# COUNT0: 2828.393
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 10.405
+# elapsed: 13.734965
+# pid: 5346
+# status: 0
+
+# COUNT0: 2821.038
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 10.454
+# elapsed: 13.727376
+# pid: 5349
+# status: 0
+
+# COUNT0: 3002.765
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.838
+# elapsed: 13.117793
+# pid: 5352
+# status: 0
+
+# COUNT0: 2269.527
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 10.227
+# elapsed: 11.297220
+# pid: 5355
+# status: 0
+
+# COUNT0: 2480.249
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.721
+# elapsed: 10.803810
+# pid: 5359
+# status: 0
+
+# COUNT0: 2502.533
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.870
+# elapsed: 10.992272
+# pid: 5361
+# status: 0
+
+#### Pass 8
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.12 Seconds         25   Passes (x 100)
+       0.53 Seconds        125   Passes (x 100)
+
+Use 2356  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1028.073              0.044
+N2 floating point     -1.12187079889292241       965.385              0.328
+N3 if then else        1.00000000000000000                4064.100    0.060
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  44.029    4.452
+N6 floating point      0.99999987890802811       596.072              2.132
+N7 assignments         3.00000000000000000                2721.180    0.160
+N8 exp,sqrt etc.       0.75100163018453692                  36.579    2.396
+
+MWIPS                                           2461.346              9.572
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.11 Seconds         25   Passes (x 100)
+       0.52 Seconds        125   Passes (x 100)
+
+Use 2413  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1034.143              0.045
+N2 floating point     -1.12187079889292241       953.845              0.340
+N3 if then else        1.00000000000000000                4162.425    0.060
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  43.230    4.644
+N6 floating point      0.99999987890802811       595.958              2.184
+N7 assignments         3.00000000000000000                2933.700    0.152
+N8 exp,sqrt etc.       0.75100163018453692                  37.527    2.392
+
+MWIPS                                           2458.031              9.817
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.51 Seconds        125   Passes (x 100)
+
+Use 2430  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1041.429              0.045
+N2 floating point     -1.12187079889292241       983.711              0.332
+N3 if then else        1.00000000000000000                3493.125    0.072
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  40.500    4.992
+N6 floating point      0.99999987890802811       590.424              2.220
+N7 assignments         3.00000000000000000                2954.368    0.152
+N8 exp,sqrt etc.       0.75100163018453692                  33.430    2.704
+
+MWIPS                                           2310.589             10.517
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.42 Seconds        125   Passes (x 100)
+       2.12 Seconds        625   Passes (x 100)
+
+Use 2954  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1066.105              0.053
+N2 floating point     -1.12187079889292241       992.544              0.400
+N3 if then else        1.00000000000000000                4246.375    0.072
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.945    4.316
+N6 floating point      0.99999987890802811       597.222              2.668
+N7 assignments         3.00000000000000000                3790.967    0.144
+N8 exp,sqrt etc.       0.75100163018453692                  51.834    2.120
+
+MWIPS                                           3022.551              9.773
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.11 Seconds        625   Passes (x 100)
+
+Use 2960  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1060.299              0.054
+N2 floating point     -1.12187079889292241       994.560              0.400
+N3 if then else        1.00000000000000000                4031.053    0.076
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.955    4.324
+N6 floating point      0.99999987890802811       596.646              2.676
+N7 assignments         3.00000000000000000                3696.000    0.148
+N8 exp,sqrt etc.       0.75100163018453692                  51.744    2.128
+
+MWIPS                                           3018.683              9.806
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.44 Seconds        125   Passes (x 100)
+       2.12 Seconds        625   Passes (x 100)
+
+Use 2948  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1063.940              0.053
+N2 floating point     -1.12187079889292241       990.528              0.400
+N3 if then else        1.00000000000000000                4237.750    0.072
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.882    4.312
+N6 floating point      0.99999987890802811       596.904              2.664
+N7 assignments         3.00000000000000000                3681.016    0.148
+N8 exp,sqrt etc.       0.75100163018453692                  51.729    2.120
+
+MWIPS                                           3017.647              9.769
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.42 Seconds        125   Passes (x 100)
+       2.11 Seconds        625   Passes (x 100)
+
+Use 2959  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1059.940              0.054
+N2 floating point     -1.12187079889292241       994.224              0.400
+N3 if then else        1.00000000000000000                4029.691    0.076
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.778    4.336
+N6 floating point      0.99999987890802811       597.337              2.672
+N7 assignments         3.00000000000000000                3797.383    0.144
+N8 exp,sqrt etc.       0.75100163018453692                  51.630    2.132
+
+MWIPS                                           3015.203              9.814
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.49 Seconds        125   Passes (x 100)
+       2.68 Seconds        625   Passes (x 100)
+
+Use 2332  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1046.131              0.043
+N2 floating point     -1.12187079889292241       979.440              0.320
+N3 if then else        1.00000000000000000                3771.281    0.064
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  38.014    5.104
+N6 floating point      0.99999987890802811       590.000              2.132
+N7 assignments         3.00000000000000000                3366.825    0.128
+N8 exp,sqrt etc.       0.75100163018453692                  51.514    1.684
+
+MWIPS                                           2461.266              9.475
+
+
+# COUNT0: 2310.589
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 10.517
+# elapsed: 11.595772
+# pid: 5422
+# status: 0
+
+# COUNT0: 3017.647
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.769
+# elapsed: 13.075058
+# pid: 5423
+# status: 0
+
+# COUNT0: 2458.031
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.817
+# elapsed: 10.910064
+# pid: 5425
+# status: 0
+
+# COUNT0: 3018.683
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.806
+# elapsed: 13.067733
+# pid: 5428
+# status: 0
+
+# COUNT0: 3022.551
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.773
+# elapsed: 13.039651
+# pid: 5431
+# status: 0
+
+# COUNT0: 2461.266
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.475
+# elapsed: 13.280583
+# pid: 5434
+# status: 0
+
+# COUNT0: 3015.203
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.814
+# elapsed: 13.078367
+# pid: 5437
+# status: 0
+
+# COUNT0: 2461.346
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.572
+# elapsed: 10.680310
+# pid: 5440
+# status: 0
+
+#### Pass 9
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.11 Seconds         25   Passes (x 100)
+       0.50 Seconds        125   Passes (x 100)
+
+Use 2488  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1029.517              0.046
+N2 floating point     -1.12187079889292241       960.883              0.348
+N3 if then else        1.00000000000000000                4023.562    0.064
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  44.689    4.632
+N6 floating point      0.99999987890802811       595.927              2.252
+N7 assignments         3.00000000000000000                2673.153    0.172
+N8 exp,sqrt etc.       0.75100163018453692                  46.184    2.004
+
+MWIPS                                           2613.885              9.518
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.12 Seconds         25   Passes (x 100)
+       0.50 Seconds        125   Passes (x 100)
+
+Use 2488  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1029.517              0.046
+N2 floating point     -1.12187079889292241       972.056              0.344
+N3 if then else        1.00000000000000000                4023.562    0.064
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  44.806    4.620
+N6 floating point      0.99999987890802811       596.987              2.248
+N7 assignments         3.00000000000000000                2612.400    0.176
+N8 exp,sqrt etc.       0.75100163018453692                  46.092    2.008
+
+MWIPS                                           2617.184              9.506
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.03 Seconds          5   Passes (x 100)
+       0.11 Seconds         25   Passes (x 100)
+       0.51 Seconds        125   Passes (x 100)
+
+Use 2430  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1041.429              0.045
+N2 floating point     -1.12187079889292241       972.000              0.336
+N3 if then else        1.00000000000000000                3929.765    0.064
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  40.371    5.008
+N6 floating point      0.99999987890802811       590.424              2.220
+N7 assignments         3.00000000000000000                3118.500    0.144
+N8 exp,sqrt etc.       0.75100163018453692                  30.294    2.984
+
+MWIPS                                           2249.833             10.801
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.12 Seconds        625   Passes (x 100)
+
+Use 2954  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1066.105              0.053
+N2 floating point     -1.12187079889292241       992.544              0.400
+N3 if then else        1.00000000000000000                4022.882    0.076
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.997    4.312
+N6 floating point      0.99999987890802811       597.222              2.668
+N7 assignments         3.00000000000000000                3790.967    0.144
+N8 exp,sqrt etc.       0.75100163018453692                  51.350    2.140
+
+MWIPS                                           3016.379              9.793
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.11 Seconds        625   Passes (x 100)
+
+Use 2960  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1060.299              0.054
+N2 floating point     -1.12187079889292241       994.560              0.400
+N3 if then else        1.00000000000000000                4255.000    0.072
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.955    4.324
+N6 floating point      0.99999987890802811       596.646              2.676
+N7 assignments         3.00000000000000000                3798.667    0.144
+N8 exp,sqrt etc.       0.75100163018453692                  51.551    2.136
+
+MWIPS                                           3018.683              9.806
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.11 Seconds        625   Passes (x 100)
+
+Use 2966  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1054.578              0.054
+N2 floating point     -1.12187079889292241       996.576              0.400
+N3 if then else        1.00000000000000000                3654.536    0.084
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.860    4.340
+N6 floating point      0.99999987890802811       596.963              2.680
+N7 assignments         3.00000000000000000                3806.367    0.144
+N8 exp,sqrt etc.       0.75100163018453692                  51.559    2.140
+
+MWIPS                                           3013.615              9.842
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.45 Seconds        125   Passes (x 100)
+       2.20 Seconds        625   Passes (x 100)
+
+Use 2841  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1065.375              0.051
+N2 floating point     -1.12187079889292241       994.350              0.384
+N3 if then else        1.00000000000000000                3868.993    0.076
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  51.836    4.560
+N6 floating point      0.99999987890802811       596.743              2.568
+N7 assignments         3.00000000000000000                3547.411    0.148
+N8 exp,sqrt etc.       0.75100163018453692                  51.604    2.048
+
+MWIPS                                           2888.604              9.835
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.49 Seconds        125   Passes (x 100)
+       2.60 Seconds        625   Passes (x 100)
+
+Use 2404  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1039.568              0.044
+N2 floating point     -1.12187079889292241       985.054              0.328
+N3 if then else        1.00000000000000000                3887.719    0.064
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  38.494    5.196
+N6 floating point      0.99999987890802811       589.417              2.200
+N7 assignments         3.00000000000000000                3173.280    0.140
+N8 exp,sqrt etc.       0.75100163018453692                  50.812    1.760
+
+MWIPS                                           2470.100              9.732
+
+
+# COUNT0: 2613.885
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.518
+# elapsed: 10.612854
+# pid: 5452
+# status: 0
+
+# COUNT0: 3016.379
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.793
+# elapsed: 13.058584
+# pid: 5453
+# status: 0
+
+# COUNT0: 3013.615
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.842
+# elapsed: 13.103294
+# pid: 5455
+# status: 0
+
+# COUNT0: 2470.100
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.732
+# elapsed: 13.490747
+# pid: 5458
+# status: 0
+
+# COUNT0: 2249.833
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 10.801
+# elapsed: 11.895983
+# pid: 5461
+# status: 0
+
+# COUNT0: 3018.683
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.806
+# elapsed: 13.071987
+# pid: 5464
+# status: 0
+
+# COUNT0: 2888.604
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.835
+# elapsed: 13.190767
+# pid: 5467
+# status: 0
+
+# COUNT0: 2617.184
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.506
+# elapsed: 10.607816
+# pid: 5470
+# status: 0
+
+#### Pass 10
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.50 Seconds        125   Passes (x 100)
+
+Use 2488  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1066.286              0.045
+N2 floating point     -1.12187079889292241       983.492              0.340
+N3 if then else        1.00000000000000000                4291.800    0.060
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.558    3.660
+N6 floating point      0.99999987890802811       595.927              2.252
+N7 assignments         3.00000000000000000                3963.641    0.116
+N8 exp,sqrt etc.       0.75100163018453692                  51.419    1.800
+
+MWIPS                                           3007.446              8.273
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.11 Seconds         25   Passes (x 100)
+       0.53 Seconds        125   Passes (x 100)
+
+Use 2376  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1027.459              0.044
+N2 floating point     -1.12187079889292241       961.851              0.332
+N3 if then else        1.00000000000000000                4391.357    0.056
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  43.658    4.528
+N6 floating point      0.99999987890802811       595.546              2.152
+N7 assignments         3.00000000000000000                2613.600    0.168
+N8 exp,sqrt etc.       0.75100163018453692                  36.047    2.452
+
+MWIPS                                           2441.330              9.732
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.51 Seconds        125   Passes (x 100)
+
+Use 2468  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1021.241              0.046
+N2 floating point     -1.12187079889292241       964.242              0.344
+N3 if then else        1.00000000000000000                3991.219    0.064
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  42.637    4.816
+N6 floating point      0.99999987890802811       595.366              2.236
+N7 assignments         3.00000000000000000                3167.267    0.144
+N8 exp,sqrt etc.       0.75100163018453692                  38.382    2.392
+
+MWIPS                                           2457.580             10.042
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.10 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.40 Seconds        625   Passes (x 100)
+
+Use 2604  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1068.308              0.047
+N2 floating point     -1.12187079889292241       983.083              0.356
+N3 if then else        1.00000000000000000                3963.441    0.068
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.954    3.804
+N6 floating point      0.99999987890802811       596.179              2.356
+N7 assignments         3.00000000000000000                3538.376    0.136
+N8 exp,sqrt etc.       0.75100163018453692                  51.526    1.880
+
+MWIPS                                           3011.519              8.647
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.45 Seconds        125   Passes (x 100)
+       2.60 Seconds        625   Passes (x 100)
+
+Use 2404  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1030.286              0.045
+N2 floating point     -1.12187079889292241       961.600              0.336
+N3 if then else        1.00000000000000000                3887.719    0.064
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  43.330    4.616
+N6 floating point      0.99999987890802811       592.650              2.188
+N7 assignments         3.00000000000000000                3266.612    0.136
+N8 exp,sqrt etc.       0.75100163018453692                  51.514    1.736
+
+MWIPS                                           2635.734              9.121
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.43 Seconds        125   Passes (x 100)
+       2.12 Seconds        625   Passes (x 100)
+
+Use 2943  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1062.135              0.053
+N2 floating point     -1.12187079889292241       988.848              0.400
+N3 if then else        1.00000000000000000                4007.901    0.076
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.944    4.300
+N6 floating point      0.99999987890802811       595.891              2.664
+N7 assignments         3.00000000000000000                3674.773    0.148
+N8 exp,sqrt etc.       0.75100163018453692                  51.447    2.128
+
+MWIPS                                           3012.529              9.769
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.03 Seconds          5   Passes (x 100)
+       0.11 Seconds         25   Passes (x 100)
+       0.50 Seconds        125   Passes (x 100)
+       2.12 Seconds        625   Passes (x 100)
+
+Use 2943  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1062.135              0.053
+N2 floating point     -1.12187079889292241       988.848              0.400
+N3 if then else        1.00000000000000000                4007.901    0.076
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  56.997    4.296
+N6 floating point      0.99999987890802811       595.891              2.664
+N7 assignments         3.00000000000000000                4120.200    0.132
+N8 exp,sqrt etc.       0.75100163018453692                  51.544    2.124
+
+MWIPS                                           3019.948              9.745
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.02 Seconds          5   Passes (x 100)
+       0.11 Seconds         25   Passes (x 100)
+       0.45 Seconds        125   Passes (x 100)
+       2.37 Seconds        625   Passes (x 100)
+
+Use 2640  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744      1030.244              0.049
+N2 floating point     -1.12187079889292241       924.000              0.384
+N3 if then else        1.00000000000000000                3595.263    0.076
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  38.835    5.656
+N6 floating point      0.99999987890802811       596.322              2.388
+N7 assignments         3.00000000000000000                3811.500    0.128
+N8 exp,sqrt etc.       0.75100163018453692                  51.472    1.908
+
+MWIPS                                           2493.106             10.589
+
+
+# COUNT0: 3011.519
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 8.647
+# elapsed: 12.169283
+# pid: 5482
+# status: 0
+
+# COUNT0: 3012.529
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.769
+# elapsed: 13.050017
+# pid: 5483
+# status: 0
+
+# COUNT0: 2457.580
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 10.042
+# elapsed: 11.133258
+# pid: 5485
+# status: 0
+
+# COUNT0: 3007.446
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 8.273
+# elapsed: 9.345428
+# pid: 5488
+# status: 0
+
+# COUNT0: 2441.330
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.732
+# elapsed: 10.828895
+# pid: 5491
+# status: 0
+
+# COUNT0: 3019.948
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.745
+# elapsed: 13.119968
+# pid: 5494
+# status: 0
+
+# COUNT0: 2635.734
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.121
+# elapsed: 12.822995
+# pid: 5497
+# status: 0
+
+# COUNT0: 2493.106
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 10.589
+# elapsed: 14.125173
+# pid: 5500
+# status: 0
+
+*Dump score:      21379.4
+*Dump score:      21535.2
+*Dump score:      21627.0
+Count score:      21673.5
+Count score:      21754.7
+Count score:      21765.3
+Count score:      21807.5
+Count score:      21888.3
+Count score:      22035.4
+Count score:      22079.2
+
+>>>> Sum of 8 copies
+>>>> score: 21857.2611491151
+>>>> time: 9.68560714285714
+>>>> iterations: 7
+
+
+########################################################
+Execl Throughput -- 8 copies
+==> "/root/UnixBench/pgms/execl" 30 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 15939
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.589729
+# pid: 5512
+# status: 0
+
+# COUNT0: 15844
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.587434
+# pid: 5513
+# status: 0
+
+# COUNT0: 15900
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.587072
+# pid: 5515
+# status: 0
+
+# COUNT0: 15955
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.582935
+# pid: 5518
+# status: 0
+
+# COUNT0: 15951
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.579470
+# pid: 5521
+# status: 0
+
+# COUNT0: 15927
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.576761
+# pid: 5524
+# status: 0
+
+# COUNT0: 15860
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.575214
+# pid: 5527
+# status: 0
+
+# COUNT0: 15872
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.574229
+# pid: 5530
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 16034
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.961402
+# pid: 5601
+# status: 0
+
+# COUNT0: 16041
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.959493
+# pid: 5602
+# status: 0
+
+# COUNT0: 16129
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.957965
+# pid: 5604
+# status: 0
+
+# COUNT0: 16106
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.953871
+# pid: 5607
+# status: 0
+
+# COUNT0: 16139
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.953223
+# pid: 5610
+# status: 0
+
+# COUNT0: 16020
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.950495
+# pid: 5613
+# status: 0
+
+# COUNT0: 16206
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.946952
+# pid: 5616
+# status: 0
+
+# COUNT0: 16153
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.945022
+# pid: 5619
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 16148
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.958118
+# pid: 5631
+# status: 0
+
+# COUNT0: 16140
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.956725
+# pid: 5632
+# status: 0
+
+# COUNT0: 16065
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.954400
+# pid: 5634
+# status: 0
+
+# COUNT0: 16161
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.950677
+# pid: 5637
+# status: 0
+
+# COUNT0: 16179
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.948377
+# pid: 5640
+# status: 0
+
+# COUNT0: 16003
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.945501
+# pid: 5644
+# status: 0
+
+# COUNT0: 16117
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.941498
+# pid: 5648
+# status: 0
+
+# COUNT0: 16133
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.937543
+# pid: 5651
+# status: 0
+
+*Dump score:     127248.0
+Count score:     128828.0
+Count score:     128946.0
+
+>>>> Sum of 8 copies
+>>>> score: 4303.21430441839
+>>>> time: 29.951328875
+>>>> iterations: 2
+
+
+########################################################
+File Copy 1024 bufsize 2000 maxblocks -- 8 copies
+==> "/root/UnixBench/pgms/fstime" -c -t 30 -d "/root/UnixBench/tmp" -b 1024 -m 2000 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+Write done: 208000 in 2.0093, score 25879
+Read done: 6120724 in 2.0001, score 765062
+Copy done: 3708692 in 30.0058, score 30899
+Write done: 384000 in 2.0194, score 47539
+Read done: 6066980 in 2.0001, score 758346
+Copy done: 3772920 in 30.0006, score 31440
+Write done: 256000 in 2.0024, score 31961
+Read done: 4388044 in 2.0001, score 548486
+Copy done: 3856912 in 30.0001, score 32140
+Write done: 424000 in 2.0154, score 52594
+Read done: 4387084 in 2.0001, score 548367
+Copy done: 3752876 in 30.0052, score 31268
+Write done: 344000 in 2.0401, score 42155
+Read done: 4367276 in 2.0001, score 545890
+Copy done: 3759416 in 30.0002, score 31328
+Write done: 384000 in 2.0376, score 47114
+Read done: 4367424 in 2.0001, score 545907
+Copy done: 3829288 in 30.0001, score 31910
+Write done: 224000 in 2.0218, score 27698
+Read done: 5963988 in 2.0001, score 745478
+Copy done: 3823632 in 30.0001, score 31863
+Write done: 280000 in 2.0264, score 34543
+Read done: 6111376 in 2.0001, score 763895
+Copy done: 3752796 in 30.0001, score 31273
+
+# COUNT0: 31440
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.104616
+# pid: 5707
+# status: 0
+
+# COUNT0: 30899
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.102576
+# pid: 5708
+# status: 0
+
+# COUNT0: 31273
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.182122
+# pid: 5711
+# status: 0
+
+# COUNT0: 31328
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.175715
+# pid: 5713
+# status: 0
+
+# COUNT0: 32140
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.105023
+# pid: 5716
+# status: 0
+
+# COUNT0: 31863
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.170341
+# pid: 5721
+# status: 0
+
+# COUNT0: 31268
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.114405
+# pid: 5723
+# status: 0
+
+# COUNT0: 31910
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.164883
+# pid: 5724
+# status: 0
+
+#### Pass 2
+
+Write done: 112000 in 2.0063, score 13956
+Read done: 6201744 in 2.0001, score 775189
+Copy done: 4003032 in 30.0142, score 33342
+Write done: 312000 in 2.0061, score 38880
+Read done: 4487400 in 2.0001, score 560905
+Copy done: 3888084 in 30.0001, score 32400
+Write done: 328000 in 2.0124, score 40747
+Read done: 4634128 in 2.0001, score 579245
+Copy done: 4205248 in 30.0025, score 35040
+Write done: 368000 in 2.0256, score 45419
+Read done: 4547024 in 2.0001, score 568358
+Copy done: 3938428 in 30.0001, score 32820
+Write done: 488000 in 2.0218, score 60343
+Read done: 6255228 in 2.0001, score 781876
+Copy done: 3941492 in 30.0023, score 32843
+Write done: 384000 in 2.0638, score 46516
+Read done: 6054852 in 2.0001, score 756831
+Copy done: 4079964 in 30.0001, score 33999
+Write done: 320000 in 2.0249, score 39508
+Read done: 6109272 in 2.0001, score 763634
+Copy done: 4126744 in 30.0001, score 34389
+Write done: 184000 in 2.0165, score 22811
+Read done: 4483156 in 2.0001, score 560375
+Copy done: 4016364 in 30.0001, score 33469
+
+# COUNT0: 33999
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.229451
+# pid: 5796
+# status: 0
+
+# COUNT0: 32820
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.219655
+# pid: 5797
+# status: 0
+
+# COUNT0: 33469
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.227518
+# pid: 5799
+# status: 0
+
+# COUNT0: 34389
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.223517
+# pid: 5802
+# status: 0
+
+# COUNT0: 33342
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.093844
+# pid: 5805
+# status: 0
+
+# COUNT0: 32843
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.210316
+# pid: 5808
+# status: 0
+
+# COUNT0: 32400
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.137353
+# pid: 5811
+# status: 0
+
+# COUNT0: 35040
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.143915
+# pid: 5815
+# status: 0
+
+#### Pass 3
+
+Write done: 328000 in 2.0103, score 40790
+Read done: 5867376 in 2.0001, score 733396
+Copy done: 3881744 in 30.0067, score 32340
+Write done: 400000 in 2.0061, score 49847
+Read done: 5883860 in 2.0001, score 735456
+Copy done: 3746936 in 30.0002, score 31224
+Write done: 280000 in 2.0092, score 34838
+Read done: 5865608 in 2.0001, score 733174
+Copy done: 3922252 in 30.0001, score 32685
+Write done: 240000 in 2.0110, score 29835
+Read done: 4694644 in 2.0001, score 586809
+Copy done: 3649016 in 30.0026, score 30405
+Write done: 296000 in 2.0309, score 36436
+Read done: 5681620 in 2.0001, score 710175
+Copy done: 3819204 in 30.0001, score 31826
+Write done: 352000 in 2.0155, score 43660
+Read done: 4545748 in 2.0001, score 568198
+Copy done: 3724936 in 30.0001, score 31041
+Write done: 312000 in 2.0220, score 38576
+Read done: 4864052 in 2.0001, score 607985
+Copy done: 3719588 in 30.0001, score 30996
+Write done: 232000 in 2.0306, score 28563
+Read done: 4965868 in 2.0001, score 620712
+Copy done: 3891212 in 30.0001, score 32426
+
+# COUNT0: 32340
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.166114
+# pid: 5872
+# status: 0
+
+# COUNT0: 30405
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.183870
+# pid: 5873
+# status: 0
+
+# COUNT0: 32426
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.205955
+# pid: 5875
+# status: 0
+
+# COUNT0: 30996
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.201327
+# pid: 5879
+# status: 0
+
+# COUNT0: 32685
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.171008
+# pid: 5882
+# status: 0
+
+# COUNT0: 31826
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.188805
+# pid: 5886
+# status: 0
+
+# COUNT0: 31224
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.163884
+# pid: 5889
+# status: 0
+
+# COUNT0: 31041
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.182292
+# pid: 5892
+# status: 0
+
+*Dump score:     252121.0
+Count score:     252943.0
+Count score:     268302.0
+
+>>>> Sum of 8 copies
+>>>> score: 260509.333395178
+>>>> time: 30
+>>>> iterations: 2
+
+
+########################################################
+File Copy 256 bufsize 500 maxblocks -- 8 copies
+==> "/root/UnixBench/pgms/fstime" -c -t 30 -d "/root/UnixBench/tmp" -b 256 -m 500 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+Write done: 78000 in 2.0256, score 9626
+Read done: 1618081 in 2.0001, score 202253
+Copy done: 1025380 in 30.0001, score 8544
+Write done: 54000 in 2.0286, score 6654
+Read done: 1608437 in 2.0001, score 201047
+Copy done: 1023430 in 30.0033, score 8527
+Write done: 116000 in 2.0068, score 14450
+Read done: 1243334 in 2.0001, score 155411
+Copy done: 1002804 in 30.0010, score 8356
+Write done: 162000 in 2.0529, score 19727
+Read done: 1238309 in 2.0001, score 154783
+Copy done: 1019986 in 30.0020, score 8499
+Write done: 44000 in 2.0425, score 5385
+Read done: 1233649 in 2.0001, score 154200
+Copy done: 983657 in 30.0001, score 8197
+Write done: 56000 in 2.0158, score 6945
+Read done: 1634667 in 2.0001, score 204326
+Copy done: 976317 in 30.0019, score 8135
+Write done: 66000 in 2.0347, score 8109
+Read done: 1602496 in 2.0001, score 200304
+Copy done: 1035334 in 30.0001, score 8627
+Write done: 90000 in 2.0398, score 11030
+Read done: 1232058 in 2.0002, score 153993
+Copy done: 1027434 in 30.0001, score 8561
+
+# COUNT0: 8499
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.202481
+# pid: 5902
+# status: 0
+
+# COUNT0: 8197
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.204829
+# pid: 5903
+# status: 0
+
+# COUNT0: 8356
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.197892
+# pid: 5905
+# status: 0
+
+# COUNT0: 8561
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.201228
+# pid: 5908
+# status: 0
+
+# COUNT0: 8527
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.173134
+# pid: 5911
+# status: 0
+
+# COUNT0: 8135
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.194919
+# pid: 5914
+# status: 0
+
+# COUNT0: 8544
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.165529
+# pid: 5917
+# status: 0
+
+# COUNT0: 8627
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.189478
+# pid: 5920
+# status: 0
+
+#### Pass 2
+
+Write done: 52000 in 2.0005, score 6498
+Read done: 1317555 in 2.0001, score 164688
+Copy done: 1048906 in 30.0001, score 8740
+Write done: 158000 in 2.0197, score 19557
+Read done: 1617782 in 2.0001, score 202215
+Copy done: 1042488 in 30.0001, score 8687
+Write done: 80000 in 2.0240, score 9881
+Read done: 1300932 in 2.0001, score 162610
+Copy done: 987550 in 30.0001, score 8229
+Write done: 38000 in 2.0213, score 4699
+Read done: 1636460 in 2.0001, score 204550
+Copy done: 1028059 in 30.0001, score 8567
+Write done: 148000 in 2.0657, score 17911
+Read done: 1635643 in 2.0001, score 204448
+Copy done: 1009106 in 30.0001, score 8409
+Write done: 86000 in 2.0214, score 10636
+Read done: 1313904 in 2.0002, score 164223
+Copy done: 1042932 in 30.0001, score 8691
+Write done: 64000 in 2.0618, score 7760
+Read done: 1295784 in 2.0001, score 161965
+Copy done: 992514 in 30.0001, score 8270
+Write done: 56000 in 2.0651, score 6779
+Read done: 1624325 in 2.0001, score 203033
+Copy done: 1024172 in 30.0002, score 8534
+
+# COUNT0: 8534
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.225988
+# pid: 5991
+# status: 0
+
+# COUNT0: 8409
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.221415
+# pid: 5992
+# status: 0
+
+# COUNT0: 8270
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.219251
+# pid: 5994
+# status: 0
+
+# COUNT0: 8229
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.173318
+# pid: 5997
+# status: 0
+
+# COUNT0: 8687
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.135302
+# pid: 6002
+# status: 0
+
+# COUNT0: 8691
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.209675
+# pid: 6005
+# status: 0
+
+# COUNT0: 8740
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.098393
+# pid: 6006
+# status: 0
+
+# COUNT0: 8567
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.204326
+# pid: 6010
+# status: 0
+
+#### Pass 3
+
+Write done: 134000 in 2.0017, score 16736
+Read done: 1660863 in 2.0001, score 207600
+Copy done: 1048346 in 30.0008, score 8735
+Write done: 64000 in 2.0032, score 7987
+Read done: 1320989 in 2.0001, score 165116
+Copy done: 961826 in 30.0024, score 8014
+Write done: 96000 in 2.0568, score 11668
+Read done: 1327123 in 2.0001, score 165884
+Copy done: 1035777 in 30.0001, score 8631
+Write done: 52000 in 2.0289, score 6407
+Read done: 1670371 in 2.0001, score 208789
+Copy done: 1026626 in 30.0006, score 8555
+Write done: 108000 in 2.0322, score 13286
+Read done: 1324416 in 2.0001, score 165546
+Copy done: 1017793 in 30.0001, score 8481
+Write done: 64000 in 2.0135, score 7946
+Read done: 1660799 in 2.0001, score 207593
+Copy done: 1035073 in 30.0001, score 8625
+Write done: 70000 in 2.0217, score 8655
+Read done: 1319258 in 2.0001, score 164894
+Copy done: 1027936 in 30.0001, score 8566
+Write done: 96000 in 2.0125, score 11925
+Read done: 1673457 in 2.0001, score 209175
+Copy done: 1005736 in 30.0001, score 8381
+
+# COUNT0: 8631
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.155844
+# pid: 6067
+# status: 0
+
+# COUNT0: 8566
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.232302
+# pid: 6068
+# status: 0
+
+# COUNT0: 8481
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.225511
+# pid: 6070
+# status: 0
+
+# COUNT0: 8381
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.228722
+# pid: 6073
+# status: 0
+
+# COUNT0: 8625
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.224824
+# pid: 6076
+# status: 0
+
+# COUNT0: 8555
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.218009
+# pid: 6079
+# status: 0
+
+# COUNT0: 8014
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.138032
+# pid: 6082
+# status: 0
+
+# COUNT0: 8735
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.118791
+# pid: 6085
+# status: 0
+
+*Dump score:      67446.0
+Count score:      67988.0
+Count score:      68127.0
+
+>>>> Sum of 8 copies
+>>>> score: 68057.4645134536
+>>>> time: 30
+>>>> iterations: 2
+
+
+########################################################
+File Copy 4096 bufsize 8000 maxblocks -- 8 copies
+==> "/root/UnixBench/pgms/fstime" -c -t 30 -d "/root/UnixBench/tmp" -b 4096 -m 8000 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+Write done: 1600000 in 2.0139, score 198616
+Read done: 11914688 in 2.0001, score 1489272
+Copy done: 12092544 in 30.0086, score 100742
+Write done: 1120000 in 2.0094, score 139344
+Read done: 13708656 in 2.0001, score 1713510
+Copy done: 12064192 in 30.0208, score 100465
+Write done: 640000 in 2.0100, score 79601
+Read done: 11916960 in 2.0001, score 1489565
+Copy done: 11576672 in 30.0001, score 96471
+Write done: 1184000 in 2.0131, score 147037
+Read done: 10938336 in 2.0001, score 1367229
+Copy done: 11830096 in 30.0005, score 98582
+Write done: 640000 in 2.0337, score 78672
+Read done: 15366176 in 2.0001, score 1920697
+Copy done: 11802176 in 30.0007, score 98349
+Write done: 832000 in 2.0672, score 100618
+Read done: 12790768 in 2.0001, score 1598788
+Copy done: 11290704 in 30.0002, score 94088
+Write done: 544000 in 2.1189, score 64183
+Read done: 15378064 in 2.0001, score 1922188
+Copy done: 11978448 in 30.0001, score 99820
+Write done: 960000 in 2.0790, score 115441
+Read done: 11824896 in 2.0001, score 1478053
+Copy done: 11970528 in 30.0002, score 99753
+
+# COUNT0: 100465
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.114009
+# pid: 6156
+# status: 0
+
+# COUNT0: 100742
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.108026
+# pid: 6157
+# status: 0
+
+# COUNT0: 94088
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.210018
+# pid: 6159
+# status: 0
+
+# COUNT0: 99820
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.216333
+# pid: 6162
+# status: 0
+
+# COUNT0: 99753
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.207653
+# pid: 6165
+# status: 0
+
+# COUNT0: 96471
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.177284
+# pid: 6169
+# status: 0
+
+# COUNT0: 98349
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.176751
+# pid: 6173
+# status: 0
+
+# COUNT0: 98582
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.174013
+# pid: 6175
+# status: 0
+
+#### Pass 2
+
+Write done: 1440000 in 2.0140, score 178749
+Read done: 13406752 in 2.0001, score 1675774
+Copy done: 12184448 in 30.0160, score 101482
+Write done: 736000 in 2.0387, score 90253
+Read done: 14009232 in 2.0001, score 1751078
+Copy done: 12259968 in 30.0066, score 102143
+Write done: 832000 in 2.0316, score 102383
+Read done: 14666688 in 2.0001, score 1833266
+Copy done: 13353984 in 30.0080, score 111253
+Write done: 448000 in 2.0535, score 54540
+Read done: 13364176 in 2.0001, score 1670445
+Copy done: 12948320 in 30.0164, score 107843
+Write done: 736000 in 2.0812, score 88411
+Read done: 11297216 in 2.0001, score 1412104
+Copy done: 12980496 in 30.0001, score 108170
+Write done: 1184000 in 2.0947, score 141311
+Read done: 11879088 in 2.0001, score 1484819
+Copy done: 12077552 in 30.0001, score 100645
+Write done: 928000 in 2.0813, score 111469
+Read done: 11296480 in 2.0001, score 1412003
+Copy done: 11766112 in 30.0001, score 98050
+Write done: 960000 in 2.1194, score 113239
+Read done: 12479776 in 2.0001, score 1559906
+Copy done: 12231168 in 30.0001, score 101926
+
+# COUNT0: 101926
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.268278
+# pid: 6232
+# status: 0
+
+# COUNT0: 100645
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.259633
+# pid: 6233
+# status: 0
+
+# COUNT0: 111253
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.163373
+# pid: 6235
+# status: 0
+
+# COUNT0: 102143
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.159412
+# pid: 6238
+# status: 0
+
+# COUNT0: 98050
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.251940
+# pid: 6241
+# status: 0
+
+# COUNT0: 107843
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.186503
+# pid: 6244
+# status: 0
+
+# COUNT0: 108170
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.229845
+# pid: 6247
+# status: 0
+
+# COUNT0: 101482
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.144011
+# pid: 6250
+# status: 0
+
+#### Pass 3
+
+Write done: 640000 in 2.0013, score 79946
+Read done: 13770064 in 2.0001, score 1721177
+Copy done: 12551088 in 30.0183, score 104528
+Write done: 1312000 in 2.0110, score 163100
+Read done: 12095840 in 2.0001, score 1511921
+Copy done: 12074560 in 30.0075, score 100596
+Write done: 608000 in 2.0139, score 75475
+Read done: 12098144 in 2.0001, score 1512209
+Copy done: 11562560 in 30.0094, score 96324
+Write done: 1056000 in 2.0377, score 129560
+Read done: 14964048 in 2.0002, score 1870351
+Copy done: 12047712 in 30.0001, score 100397
+Write done: 1088000 in 2.0489, score 132756
+Read done: 11545424 in 2.0001, score 1443123
+Copy done: 11750800 in 30.0001, score 97923
+Write done: 896000 in 2.0253, score 110600
+Read done: 11647424 in 2.0001, score 1455874
+Copy done: 11818976 in 30.0001, score 98491
+Write done: 896000 in 2.0108, score 111400
+Read done: 13638496 in 2.0001, score 1704749
+Copy done: 11974720 in 30.0001, score 99789
+Write done: 832000 in 2.0789, score 100052
+Read done: 15216944 in 2.0001, score 1902048
+Copy done: 11643568 in 30.0001, score 97029
+
+# COUNT0: 97029
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.270321
+# pid: 6262
+# status: 0
+
+# COUNT0: 98491
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.260398
+# pid: 6263
+# status: 0
+
+# COUNT0: 104528
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.112788
+# pid: 6265
+# status: 0
+
+# COUNT0: 100397
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.254214
+# pid: 6268
+# status: 0
+
+# COUNT0: 100596
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.198600
+# pid: 6272
+# status: 0
+
+# COUNT0: 96324
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.197208
+# pid: 6275
+# status: 0
+
+# COUNT0: 97923
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.245805
+# pid: 6277
+# status: 0
+
+# COUNT0: 99789
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.244334
+# pid: 6280
+# status: 0
+
+*Dump score:     788270.0
+Count score:     795077.0
+Count score:     831512.0
+
+>>>> Sum of 8 copies
+>>>> score: 813090.441724658
+>>>> time: 30
+>>>> iterations: 2
+
+
+########################################################
+Pipe Throughput -- 8 copies
+==> "/root/UnixBench/pgms/pipe" 10 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 3636708
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007659
+# pid: 6351
+# status: 0
+
+# COUNT0: 2810630
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007915
+# pid: 6352
+# status: 0
+
+# COUNT0: 3603325
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007200
+# pid: 6354
+# status: 0
+
+# COUNT0: 3626484
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008616
+# pid: 6358
+# status: 0
+
+# COUNT0: 2810818
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008935
+# pid: 6361
+# status: 0
+
+# COUNT0: 3654633
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009839
+# pid: 6364
+# status: 0
+
+# COUNT0: 2809456
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007226
+# pid: 6366
+# status: 0
+
+# COUNT0: 2808813
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009343
+# pid: 6369
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 3592235
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008189
+# pid: 6381
+# status: 0
+
+# COUNT0: 3601151
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008550
+# pid: 6382
+# status: 0
+
+# COUNT0: 2832383
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008284
+# pid: 6384
+# status: 0
+
+# COUNT0: 3576386
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007909
+# pid: 6387
+# status: 0
+
+# COUNT0: 2826754
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.011261
+# pid: 6390
+# status: 0
+
+# COUNT0: 2817323
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010756
+# pid: 6393
+# status: 0
+
+# COUNT0: 2815239
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008921
+# pid: 6397
+# status: 0
+
+# COUNT0: 3641250
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007220
+# pid: 6399
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 3500974
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007650
+# pid: 6457
+# status: 0
+
+# COUNT0: 3323640
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008320
+# pid: 6458
+# status: 0
+
+# COUNT0: 2913243
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008073
+# pid: 6460
+# status: 0
+
+# COUNT0: 3223897
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007933
+# pid: 6463
+# status: 0
+
+# COUNT0: 3241382
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.011491
+# pid: 6466
+# status: 0
+
+# COUNT0: 3551633
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008266
+# pid: 6470
+# status: 0
+
+# COUNT0: 3194659
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007489
+# pid: 6472
+# status: 0
+
+# COUNT0: 2830879
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007741
+# pid: 6476
+# status: 0
+
+#### Pass 4
+
+
+# COUNT0: 3658653
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007496
+# pid: 6487
+# status: 0
+
+# COUNT0: 2797926
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007651
+# pid: 6488
+# status: 0
+
+# COUNT0: 3632384
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007567
+# pid: 6490
+# status: 0
+
+# COUNT0: 2839283
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008270
+# pid: 6493
+# status: 0
+
+# COUNT0: 3575099
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008561
+# pid: 6496
+# status: 0
+
+# COUNT0: 3108087
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008704
+# pid: 6500
+# status: 0
+
+# COUNT0: 3427624
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008824
+# pid: 6502
+# status: 0
+
+# COUNT0: 2867424
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007576
+# pid: 6505
+# status: 0
+
+#### Pass 5
+
+
+# COUNT0: 3565284
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008806
+# pid: 6517
+# status: 0
+
+# COUNT0: 3717408
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008772
+# pid: 6518
+# status: 0
+
+# COUNT0: 3158767
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008847
+# pid: 6520
+# status: 0
+
+# COUNT0: 2820685
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008388
+# pid: 6523
+# status: 0
+
+# COUNT0: 2881476
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008316
+# pid: 6526
+# status: 0
+
+# COUNT0: 3659237
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009482
+# pid: 6530
+# status: 0
+
+# COUNT0: 3348398
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009950
+# pid: 6532
+# status: 0
+
+# COUNT0: 2815642
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007544
+# pid: 6535
+# status: 0
+
+#### Pass 6
+
+
+# COUNT0: 3149039
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008054
+# pid: 6547
+# status: 0
+
+# COUNT0: 3136633
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008273
+# pid: 6548
+# status: 0
+
+# COUNT0: 3553963
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008320
+# pid: 6550
+# status: 0
+
+# COUNT0: 3232351
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008012
+# pid: 6553
+# status: 0
+
+# COUNT0: 3200116
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008258
+# pid: 6556
+# status: 0
+
+# COUNT0: 3192297
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007143
+# pid: 6559
+# status: 0
+
+# COUNT0: 2963246
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008549
+# pid: 6562
+# status: 0
+
+# COUNT0: 3312823
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007050
+# pid: 6565
+# status: 0
+
+#### Pass 7
+
+
+# COUNT0: 3643173
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007908
+# pid: 6636
+# status: 0
+
+# COUNT0: 3687842
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008194
+# pid: 6637
+# status: 0
+
+# COUNT0: 2859336
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008177
+# pid: 6639
+# status: 0
+
+# COUNT0: 3679595
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007691
+# pid: 6642
+# status: 0
+
+# COUNT0: 2864536
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009566
+# pid: 6645
+# status: 0
+
+# COUNT0: 2792128
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.013616
+# pid: 6648
+# status: 0
+
+# COUNT0: 3672906
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.011159
+# pid: 6651
+# status: 0
+
+# COUNT0: 2790751
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006930
+# pid: 6654
+# status: 0
+
+#### Pass 8
+
+
+# COUNT0: 2811047
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007663
+# pid: 6666
+# status: 0
+
+# COUNT0: 3654811
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008207
+# pid: 6667
+# status: 0
+
+# COUNT0: 3687676
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007529
+# pid: 6669
+# status: 0
+
+# COUNT0: 3631614
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.011421
+# pid: 6672
+# status: 0
+
+# COUNT0: 2791271
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008525
+# pid: 6675
+# status: 0
+
+# COUNT0: 2811711
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009157
+# pid: 6679
+# status: 0
+
+# COUNT0: 2816832
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008264
+# pid: 6682
+# status: 0
+
+# COUNT0: 3726792
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009890
+# pid: 6684
+# status: 0
+
+#### Pass 9
+
+
+# COUNT0: 3291085
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008242
+# pid: 6696
+# status: 0
+
+# COUNT0: 3586412
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008112
+# pid: 6697
+# status: 0
+
+# COUNT0: 3102346
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007841
+# pid: 6699
+# status: 0
+
+# COUNT0: 3298218
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008666
+# pid: 6702
+# status: 0
+
+# COUNT0: 3569553
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008343
+# pid: 6705
+# status: 0
+
+# COUNT0: 3105427
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.011482
+# pid: 6708
+# status: 0
+
+# COUNT0: 2790844
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007898
+# pid: 6711
+# status: 0
+
+# COUNT0: 2790634
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007054
+# pid: 6714
+# status: 0
+
+#### Pass 10
+
+
+# COUNT0: 3566966
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008006
+# pid: 6726
+# status: 0
+
+# COUNT0: 2835105
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008171
+# pid: 6727
+# status: 0
+
+# COUNT0: 3168248
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008327
+# pid: 6729
+# status: 0
+
+# COUNT0: 3686181
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007911
+# pid: 6732
+# status: 0
+
+# COUNT0: 3551375
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007225
+# pid: 6735
+# status: 0
+
+# COUNT0: 2854472
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008850
+# pid: 6738
+# status: 0
+
+# COUNT0: 2836289
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008518
+# pid: 6741
+# status: 0
+
+# COUNT0: 3393559
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006991
+# pid: 6744
+# status: 0
+
+*Dump score:   25534519.0
+*Dump score:   25702721.0
+*Dump score:   25740468.0
+Count score:   25760867.0
+Count score:   25780307.0
+Count score:   25892195.0
+Count score:   25906480.0
+Count score:   25931754.0
+Count score:   25966897.0
+Count score:   25990267.0
+
+>>>> Sum of 8 copies
+>>>> score: 2586769.13939737
+>>>> time: 10.0085061785714
+>>>> iterations: 7
+
+
+########################################################
+Pipe-based Context Switching -- 8 copies
+==> "/root/UnixBench/pgms/context1" 10 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 486560
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008382
+# pid: 6756
+# status: 0
+
+# COUNT0: 386296
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008716
+# pid: 6757
+# status: 0
+
+# COUNT0: 399219
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007993
+# pid: 6759
+# status: 0
+
+# COUNT0: 498447
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008258
+# pid: 6762
+# status: 0
+
+# COUNT0: 401149
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008354
+# pid: 6766
+# status: 0
+
+# COUNT0: 384671
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008508
+# pid: 6772
+# status: 0
+
+# COUNT0: 483637
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007791
+# pid: 6776
+# status: 0
+
+# COUNT0: 491971
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006753
+# pid: 6781
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 386553
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008746
+# pid: 6840
+# status: 0
+
+# COUNT0: 486168
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008253
+# pid: 6841
+# status: 0
+
+# COUNT0: 385618
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008518
+# pid: 6843
+# status: 0
+
+# COUNT0: 482887
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008274
+# pid: 6846
+# status: 0
+
+# COUNT0: 488798
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010712
+# pid: 6850
+# status: 0
+
+# COUNT0: 485577
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008419
+# pid: 6857
+# status: 0
+
+# COUNT0: 386387
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008934
+# pid: 6859
+# status: 0
+
+# COUNT0: 386671
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008976
+# pid: 6862
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 489721
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008127
+# pid: 6878
+# status: 0
+
+# COUNT0: 391355
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008119
+# pid: 6879
+# status: 0
+
+# COUNT0: 477217
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007774
+# pid: 6881
+# status: 0
+
+# COUNT0: 484556
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.011867
+# pid: 6885
+# status: 0
+
+# COUNT0: 482985
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007985
+# pid: 6891
+# status: 0
+
+# COUNT0: 388686
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008428
+# pid: 6894
+# status: 0
+
+# COUNT0: 390408
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008459
+# pid: 6898
+# status: 0
+
+# COUNT0: 389078
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007460
+# pid: 6901
+# status: 0
+
+#### Pass 4
+
+
+# COUNT0: 479752
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007399
+# pid: 6916
+# status: 0
+
+# COUNT0: 386585
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008116
+# pid: 6918
+# status: 0
+
+# COUNT0: 385395
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008396
+# pid: 6920
+# status: 0
+
+# COUNT0: 482528
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008516
+# pid: 6924
+# status: 0
+
+# COUNT0: 484765
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009468
+# pid: 6927
+# status: 0
+
+# COUNT0: 387119
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008839
+# pid: 6930
+# status: 0
+
+# COUNT0: 485243
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008873
+# pid: 6934
+# status: 0
+
+# COUNT0: 388647
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010271
+# pid: 6937
+# status: 0
+
+#### Pass 5
+
+
+# COUNT0: 388449
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007940
+# pid: 6954
+# status: 0
+
+# COUNT0: 384697
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008420
+# pid: 6955
+# status: 0
+
+# COUNT0: 488636
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008641
+# pid: 6957
+# status: 0
+
+# COUNT0: 495508
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008682
+# pid: 6962
+# status: 0
+
+# COUNT0: 479575
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009678
+# pid: 6964
+# status: 0
+
+# COUNT0: 497506
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008612
+# pid: 6968
+# status: 0
+
+# COUNT0: 389547
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008715
+# pid: 6972
+# status: 0
+
+# COUNT0: 386635
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008850
+# pid: 6976
+# status: 0
+
+#### Pass 6
+
+
+# COUNT0: 391535
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008224
+# pid: 6992
+# status: 0
+
+# COUNT0: 486119
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008096
+# pid: 6993
+# status: 0
+
+# COUNT0: 397948
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008617
+# pid: 6995
+# status: 0
+
+# COUNT0: 491582
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.011556
+# pid: 6998
+# status: 0
+
+# COUNT0: 395180
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.011515
+# pid: 7002
+# status: 0
+
+# COUNT0: 405824
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008054
+# pid: 7006
+# status: 0
+
+# COUNT0: 489533
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009694
+# pid: 7010
+# status: 0
+
+# COUNT0: 471684
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008994
+# pid: 7013
+# status: 0
+
+#### Pass 7
+
+
+# COUNT0: 388179
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007454
+# pid: 7089
+# status: 0
+
+# COUNT0: 493555
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007717
+# pid: 7090
+# status: 0
+
+# COUNT0: 390298
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010225
+# pid: 7092
+# status: 0
+
+# COUNT0: 394102
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007703
+# pid: 7097
+# status: 0
+
+# COUNT0: 501249
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008744
+# pid: 7100
+# status: 0
+
+# COUNT0: 488363
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009570
+# pid: 7104
+# status: 0
+
+# COUNT0: 489093
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007946
+# pid: 7107
+# status: 0
+
+# COUNT0: 397666
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009355
+# pid: 7111
+# status: 0
+
+#### Pass 8
+
+
+# COUNT0: 390201
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008500
+# pid: 7127
+# status: 0
+
+# COUNT0: 456355
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008086
+# pid: 7128
+# status: 0
+
+# COUNT0: 449282
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008740
+# pid: 7130
+# status: 0
+
+# COUNT0: 435359
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008563
+# pid: 7133
+# status: 0
+
+# COUNT0: 395957
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.011983
+# pid: 7137
+# status: 0
+
+# COUNT0: 478315
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007819
+# pid: 7141
+# status: 0
+
+# COUNT0: 397635
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007919
+# pid: 7146
+# status: 0
+
+# COUNT0: 469252
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008781
+# pid: 7149
+# status: 0
+
+#### Pass 9
+
+
+# COUNT0: 388702
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008430
+# pid: 7165
+# status: 0
+
+# COUNT0: 490524
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008185
+# pid: 7166
+# status: 0
+
+# COUNT0: 395133
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009302
+# pid: 7168
+# status: 0
+
+# COUNT0: 482166
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008318
+# pid: 7172
+# status: 0
+
+# COUNT0: 387562
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010429
+# pid: 7177
+# status: 0
+
+# COUNT0: 492578
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010297
+# pid: 7181
+# status: 0
+
+# COUNT0: 387840
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007818
+# pid: 7184
+# status: 0
+
+# COUNT0: 484981
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008231
+# pid: 7187
+# status: 0
+
+#### Pass 10
+
+
+# COUNT0: 476265
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008684
+# pid: 7203
+# status: 0
+
+# COUNT0: 499545
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008301
+# pid: 7204
+# status: 0
+
+# COUNT0: 388805
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010851
+# pid: 7206
+# status: 0
+
+# COUNT0: 415796
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008111
+# pid: 7209
+# status: 0
+
+# COUNT0: 394848
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007768
+# pid: 7214
+# status: 0
+
+# COUNT0: 464564
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.011274
+# pid: 7220
+# status: 0
+
+# COUNT0: 390238
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008126
+# pid: 7224
+# status: 0
+
+# COUNT0: 485057
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007491
+# pid: 7227
+# status: 0
+
+*Dump score:    3472356.0
+*Dump score:    3480034.0
+*Dump score:    3488659.0
+Count score:    3494006.0
+Count score:    3509486.0
+Count score:    3510553.0
+Count score:    3515118.0
+Count score:    3529405.0
+Count score:    3531950.0
+Count score:    3542505.0
+
+>>>> Sum of 8 copies
+>>>> score: 351590.8894744
+>>>> time: 10.008707
+>>>> iterations: 7
+
+
+########################################################
+Process Creation -- 8 copies
+==> "/root/UnixBench/pgms/spawn" 30 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 31312
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.007955
+# pid: 7287
+# status: 0
+
+# COUNT0: 31099
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.008582
+# pid: 7288
+# status: 0
+
+# COUNT0: 30841
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.008436
+# pid: 7290
+# status: 0
+
+# COUNT0: 32235
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.011942
+# pid: 7293
+# status: 0
+
+# COUNT0: 32027
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.011472
+# pid: 7298
+# status: 0
+
+# COUNT0: 31293
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.011887
+# pid: 7308
+# status: 0
+
+# COUNT0: 32562
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.009703
+# pid: 7321
+# status: 0
+
+# COUNT0: 31621
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.009290
+# pid: 7333
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 31361
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.008904
+# pid: 1019
+# status: 0
+
+# COUNT0: 31536
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.009750
+# pid: 1020
+# status: 0
+
+# COUNT0: 30315
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.009249
+# pid: 1023
+# status: 0
+
+# COUNT0: 31378
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.009033
+# pid: 1025
+# status: 0
+
+# COUNT0: 31861
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.008658
+# pid: 1030
+# status: 0
+
+# COUNT0: 32609
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.010966
+# pid: 1039
+# status: 0
+
+# COUNT0: 30699
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.010540
+# pid: 1049
+# status: 0
+
+# COUNT0: 31189
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.010317
+# pid: 1064
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 31330
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.008193
+# pid: 25216
+# status: 0
+
+# COUNT0: 31292
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.008885
+# pid: 25217
+# status: 0
+
+# COUNT0: 30602
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.009082
+# pid: 25219
+# status: 0
+
+# COUNT0: 32243
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.010183
+# pid: 25222
+# status: 0
+
+# COUNT0: 32097
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.009186
+# pid: 25227
+# status: 0
+
+# COUNT0: 31509
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.009445
+# pid: 25235
+# status: 0
+
+# COUNT0: 31430
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.010406
+# pid: 25247
+# status: 0
+
+# COUNT0: 32143
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.010497
+# pid: 25260
+# status: 0
+
+*Dump score:     250948.0
+Count score:     252646.0
+Count score:     252990.0
+
+>>>> Sum of 8 copies
+>>>> score: 8424.54176428616
+>>>> time: 30.0096965
+>>>> iterations: 2
+
+
+########################################################
+System Call Overhead -- 8 copies
+==> "/root/UnixBench/pgms/syscall" 10 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 2283565
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008231
+# pid: 18612
+# status: 0
+
+# COUNT0: 1632853
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008779
+# pid: 18613
+# status: 0
+
+# COUNT0: 1647051
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008466
+# pid: 18615
+# status: 0
+
+# COUNT0: 1906169
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008073
+# pid: 18617
+# status: 0
+
+# COUNT0: 1392439
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007925
+# pid: 18621
+# status: 0
+
+# COUNT0: 1431064
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008182
+# pid: 18624
+# status: 0
+
+# COUNT0: 2267949
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009441
+# pid: 18627
+# status: 0
+
+# COUNT0: 1876050
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007161
+# pid: 18631
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 1672298
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007733
+# pid: 18642
+# status: 0
+
+# COUNT0: 1912300
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007147
+# pid: 18643
+# status: 0
+
+# COUNT0: 2317768
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008241
+# pid: 18645
+# status: 0
+
+# COUNT0: 1651114
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007401
+# pid: 18650
+# status: 0
+
+# COUNT0: 1458765
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007803
+# pid: 18651
+# status: 0
+
+# COUNT0: 1461600
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009294
+# pid: 18654
+# status: 0
+
+# COUNT0: 1923805
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.011218
+# pid: 18658
+# status: 0
+
+# COUNT0: 2296378
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007832
+# pid: 18661
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 1668233
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007629
+# pid: 18718
+# status: 0
+
+# COUNT0: 1469562
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008188
+# pid: 18719
+# status: 0
+
+# COUNT0: 1866935
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008282
+# pid: 18721
+# status: 0
+
+# COUNT0: 2298311
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007723
+# pid: 18725
+# status: 0
+
+# COUNT0: 1461002
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008305
+# pid: 18727
+# status: 0
+
+# COUNT0: 2293922
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007311
+# pid: 18730
+# status: 0
+
+# COUNT0: 1682025
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008974
+# pid: 18733
+# status: 0
+
+# COUNT0: 1904017
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006824
+# pid: 18736
+# status: 0
+
+#### Pass 4
+
+
+# COUNT0: 2024068
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008213
+# pid: 18748
+# status: 0
+
+# COUNT0: 1668463
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008348
+# pid: 18749
+# status: 0
+
+# COUNT0: 2271821
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008096
+# pid: 18751
+# status: 0
+
+# COUNT0: 1882362
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008379
+# pid: 18754
+# status: 0
+
+# COUNT0: 1717841
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007721
+# pid: 18757
+# status: 0
+
+# COUNT0: 1762143
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006972
+# pid: 18760
+# status: 0
+
+# COUNT0: 1608028
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008156
+# pid: 18764
+# status: 0
+
+# COUNT0: 1586769
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008424
+# pid: 18767
+# status: 0
+
+#### Pass 5
+
+
+# COUNT0: 2316944
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007651
+# pid: 18778
+# status: 0
+
+# COUNT0: 1448988
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008286
+# pid: 18779
+# status: 0
+
+# COUNT0: 2291418
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007608
+# pid: 18781
+# status: 0
+
+# COUNT0: 1666401
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007420
+# pid: 18785
+# status: 0
+
+# COUNT0: 1656378
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007944
+# pid: 18789
+# status: 0
+
+# COUNT0: 1463495
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008213
+# pid: 18791
+# status: 0
+
+# COUNT0: 1931113
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009474
+# pid: 18795
+# status: 0
+
+# COUNT0: 1906148
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007258
+# pid: 18796
+# status: 0
+
+#### Pass 6
+
+
+# COUNT0: 1663734
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008223
+# pid: 18808
+# status: 0
+
+# COUNT0: 1463189
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008313
+# pid: 18809
+# status: 0
+
+# COUNT0: 2237773
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007842
+# pid: 18811
+# status: 0
+
+# COUNT0: 1653470
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007605
+# pid: 18815
+# status: 0
+
+# COUNT0: 1659399
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007725
+# pid: 18818
+# status: 0
+
+# COUNT0: 2234845
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010796
+# pid: 18820
+# status: 0
+
+# COUNT0: 1705181
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007582
+# pid: 18823
+# status: 0
+
+# COUNT0: 1857909
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008678
+# pid: 18826
+# status: 0
+
+#### Pass 7
+
+
+# COUNT0: 1670349
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008530
+# pid: 18897
+# status: 0
+
+# COUNT0: 1476995
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007758
+# pid: 18898
+# status: 0
+
+# COUNT0: 1905023
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007999
+# pid: 18900
+# status: 0
+
+# COUNT0: 2320769
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008574
+# pid: 18903
+# status: 0
+
+# COUNT0: 1923945
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006921
+# pid: 18906
+# status: 0
+
+# COUNT0: 1463031
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.011629
+# pid: 18909
+# status: 0
+
+# COUNT0: 1660765
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007526
+# pid: 18912
+# status: 0
+
+# COUNT0: 2329024
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006476
+# pid: 18916
+# status: 0
+
+#### Pass 8
+
+
+# COUNT0: 2336248
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007507
+# pid: 18927
+# status: 0
+
+# COUNT0: 1665302
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008323
+# pid: 18928
+# status: 0
+
+# COUNT0: 1654821
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008302
+# pid: 18930
+# status: 0
+
+# COUNT0: 1476830
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008498
+# pid: 18933
+# status: 0
+
+# COUNT0: 1474002
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006981
+# pid: 18936
+# status: 0
+
+# COUNT0: 1939567
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007603
+# pid: 18939
+# status: 0
+
+# COUNT0: 2358490
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007464
+# pid: 18942
+# status: 0
+
+# COUNT0: 1913517
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.012366
+# pid: 18945
+# status: 0
+
+#### Pass 9
+
+
+# COUNT0: 1657491
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007648
+# pid: 18957
+# status: 0
+
+# COUNT0: 2211275
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007641
+# pid: 18958
+# status: 0
+
+# COUNT0: 1687803
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008396
+# pid: 18960
+# status: 0
+
+# COUNT0: 1629932
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007912
+# pid: 18963
+# status: 0
+
+# COUNT0: 2047788
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009852
+# pid: 18967
+# status: 0
+
+# COUNT0: 1677111
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007010
+# pid: 18970
+# status: 0
+
+# COUNT0: 1792987
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008701
+# pid: 18974
+# status: 0
+
+# COUNT0: 1763860
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.012648
+# pid: 18976
+# status: 0
+
+#### Pass 10
+
+
+# COUNT0: 1433917
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008217
+# pid: 18987
+# status: 0
+
+# COUNT0: 1442116
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008073
+# pid: 18988
+# status: 0
+
+# COUNT0: 1872852
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008150
+# pid: 18990
+# status: 0
+
+# COUNT0: 2233635
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007654
+# pid: 18993
+# status: 0
+
+# COUNT0: 2230045
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007340
+# pid: 18996
+# status: 0
+
+# COUNT0: 1641228
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009275
+# pid: 18999
+# status: 0
+
+# COUNT0: 1870056
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008344
+# pid: 19003
+# status: 0
+
+# COUNT0: 1626512
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.008276
+# pid: 19005
+# status: 0
+
+*Dump score:   14350361.0
+*Dump score:   14437140.0
+*Dump score:   14468247.0
+Count score:   14475500.0
+Count score:   14521495.0
+Count score:   14644007.0
+Count score:   14680885.0
+Count score:   14694028.0
+Count score:   14749901.0
+Count score:   14818777.0
+
+>>>> Sum of 8 copies
+>>>> score: 1464255.44623833
+>>>> time: 10.008165875
+>>>> iterations: 7
+
+
+########################################################
+Shell Scripts (1 concurrent) -- 8 copies
+==> "/root/UnixBench/pgms/looper" 60 "/root/UnixBench/pgms/multi.sh" 1 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 1479
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.016021
+# pid: 19017
+# status: 0
+
+# COUNT0: 1476
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.025355
+# pid: 19018
+# status: 0
+
+# COUNT0: 1478
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.031681
+# pid: 19020
+# status: 0
+
+# COUNT0: 1483
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.031060
+# pid: 19023
+# status: 0
+
+# COUNT0: 1484
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.031827
+# pid: 19027
+# status: 0
+
+# COUNT0: 1483
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.030661
+# pid: 19033
+# status: 0
+
+# COUNT0: 1478
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.029912
+# pid: 19040
+# status: 0
+
+# COUNT0: 1483
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.027948
+# pid: 19046
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 1489
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.026037
+# pid: 7956
+# status: 0
+
+# COUNT0: 1497
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.033726
+# pid: 7957
+# status: 0
+
+# COUNT0: 1481
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.038493
+# pid: 7959
+# status: 0
+
+# COUNT0: 1487
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.037082
+# pid: 7965
+# status: 0
+
+# COUNT0: 1486
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.014051
+# pid: 7972
+# status: 0
+
+# COUNT0: 1492
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.020954
+# pid: 7978
+# status: 0
+
+# COUNT0: 1492
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.022440
+# pid: 7986
+# status: 0
+
+# COUNT0: 1489
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.023089
+# pid: 7994
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 1488
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.036504
+# pid: 30035
+# status: 0
+
+# COUNT0: 1483
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.037203
+# pid: 30036
+# status: 0
+
+# COUNT0: 1488
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.026937
+# pid: 30038
+# status: 0
+
+# COUNT0: 1485
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.031833
+# pid: 30041
+# status: 0
+
+# COUNT0: 1491
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.035914
+# pid: 30045
+# status: 0
+
+# COUNT0: 1489
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.014341
+# pid: 30052
+# status: 0
+
+# COUNT0: 1483
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.030022
+# pid: 30065
+# status: 0
+
+# COUNT0: 1482
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.019061
+# pid: 30075
+# status: 0
+
+*Dump score:      11844.0
+Count score:      11889.0
+Count score:      11913.0
+
+>>>> Sum of 8 copies
+>>>> score: 11895.4466217141
+>>>> time: 60.0279804375
+>>>> iterations: 2
+
+
+########################################################
+Shell Scripts (8 concurrent) -- 8 copies
+==> "/root/UnixBench/pgms/looper" 60 "/root/UnixBench/pgms/multi.sh" 8 2>&1 >> "/root/UnixBench/results/30gbnextgen-2013-11-02-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 205
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.148191
+# pid: 19483
+# status: 0
+
+# COUNT0: 203
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.140517
+# pid: 19484
+# status: 0
+
+# COUNT0: 203
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.131246
+# pid: 19486
+# status: 0
+
+# COUNT0: 204
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.148782
+# pid: 19489
+# status: 0
+
+# COUNT0: 203
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.124802
+# pid: 19493
+# status: 0
+
+# COUNT0: 204
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.153450
+# pid: 19499
+# status: 0
+
+# COUNT0: 203
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.149382
+# pid: 19507
+# status: 0
+
+# COUNT0: 204
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.149338
+# pid: 19516
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 201
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.221634
+# pid: 9483
+# status: 0
+
+# COUNT0: 199
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.117464
+# pid: 9484
+# status: 0
+
+# COUNT0: 200
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.213888
+# pid: 9487
+# status: 0
+
+# COUNT0: 200
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.013580
+# pid: 9489
+# status: 0
+
+# COUNT0: 201
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.187647
+# pid: 9496
+# status: 0
+
+# COUNT0: 201
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.208864
+# pid: 9504
+# status: 0
+
+# COUNT0: 200
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.205663
+# pid: 9525
+# status: 0
+
+# COUNT0: 201
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.114057
+# pid: 9540
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 203
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.152880
+# pid: 30033
+# status: 0
+
+# COUNT0: 201
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.182543
+# pid: 30034
+# status: 0
+
+# COUNT0: 203
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.053911
+# pid: 30036
+# status: 0
+
+# COUNT0: 201
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.033637
+# pid: 30039
+# status: 0
+
+# COUNT0: 204
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.172801
+# pid: 30043
+# status: 0
+
+# COUNT0: 201
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.174121
+# pid: 30049
+# status: 0
+
+# COUNT0: 202
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.163865
+# pid: 30058
+# status: 0
+
+# COUNT0: 201
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.072424
+# pid: 30064
+# status: 0
+
+*Dump score:       1603.0
+Count score:       1616.0
+Count score:       1629.0
+
+>>>> Sum of 8 copies
+>>>> score: 1618.85824191198
+>>>> time: 60.134493125
+>>>> iterations: 2
+

@@ -1,0 +1,65 @@
+Test results:
+   script   | clients | tps  | avg_latency | max_latency 
+------------+---------+------+-------------+-------------
+ select.sql |       1 | 5704 |           0 |           2
+
+Server 30gbhighperformancepv, client 30gbhighperformancepv
+
+Server info and settings in postgresql.conf:
+PostgreSQL 9.1.10 on x86_64-unknown-linux-gnu, compiled by gcc (Ubuntu/Linaro 4.7.3-1ubuntu1) 4.7.3, 64-bit
+        data_directory        
+------------------------------
+ /var/lib/postgresql/9.1/main
+
+             name             |         current_setting          
+------------------------------+----------------------------------
+ checkpoint_completion_target | 0.9
+ checkpoint_segments          | 32
+ default_statistics_target    | 100
+ default_text_search_config   | pg_catalog.english
+ effective_cache_size         | 22GB
+ external_pid_file            | /var/run/postgresql/9.1-main.pid
+ log_line_prefix              | %t 
+ maintenance_work_mem         | 1792MB
+ max_connections              | 100
+ port                         | 5432
+ shared_buffers               | 7GB
+ ssl                          | on
+ unix_socket_directory        | /var/run/postgresql
+ wal_buffers                  | 16MB
+ work_mem                     | 144MB
+
+
+benchmark client OS Configuration (may not be the same as the server)
+Linux 30gbhighperformancepv 3.8.0-31-generic #46-Ubuntu SMP Tue Sep 10 20:03:44 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+/etc/debian_version:
+wheezy/sid
+
+/etc/lsb-release:
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=13.04
+DISTRIB_CODENAME=raring
+DISTRIB_DESCRIPTION="Ubuntu 13.04"
+
+
+/proc/sys/vm/dirty_background_bytes=0
+/proc/sys/vm/dirty_background_ratio=10
+/proc/sys/vm/dirty_bytes=0
+/proc/sys/vm/dirty_expire_centisecs=3000
+/proc/sys/vm/dirty_ratio=20
+/proc/sys/vm/dirty_writeback_centisecs=500
+
+/dev/xvda1 on / type ext3 (rw,noatime,errors=remount-ro,barrier=0)
+proc on /proc type proc (rw,noexec,nosuid,nodev)
+sysfs on /sys type sysfs (rw,noexec,nosuid,nodev)
+none on /sys/fs/cgroup type tmpfs (rw)
+none on /sys/fs/fuse/connections type fusectl (rw)
+none on /sys/kernel/debug type debugfs (rw)
+none on /sys/kernel/security type securityfs (rw)
+udev on /dev type devtmpfs (rw,mode=0755)
+devpts on /dev/pts type devpts (rw,noexec,nosuid,gid=5,mode=0620)
+tmpfs on /run type tmpfs (rw,noexec,nosuid,size=10%,mode=0755)
+none on /run/lock type tmpfs (rw,noexec,nosuid,nodev,size=5242880)
+none on /run/shm type tmpfs (rw,nosuid,nodev)
+none on /run/user type tmpfs (rw,noexec,nosuid,nodev,size=104857600,mode=0755)
+none on /proc/xen type xenfs (rw)
