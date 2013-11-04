@@ -1,0 +1,14 @@
+The scripts in this directory were used to generate the charts shown
+in the Performance Cloud Servers blog post announcement. They use data
+which was averaged across the six runs of each of the benchmarks they're
+testing per server type. The plots are created by plot.ly,
+a collaborative data analysis and graphing tool that exposes a simple API
+to create these charts.
+
+For example, a script like `plot_pypy.py` simply has three numbers in it.
+Each of those results is the average of those six runs for each type of
+server, gathered manually, and averaged via Google Spreadsheet.
+
+Currently, there's no easy way to regenerate these plots if you were to run
+the benchmarks on your own. This is something we'd love to add in order
+to make the end-to-end benchmarking process more smooth.
